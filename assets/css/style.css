@@ -1245,14 +1245,7 @@ body.burger-menu_active{
     margin-right: 15px;
     text-align: center;
 }
-#our-branches .our-branches_slider .item .box_info_item .img img.two {
-    width: 18px;
-    height: 18px;
-}
-#our-branches .our-branches_slider .item .box_info_item .img img.third{
-    width: 18px;
-    height: 20px;
-}
+
 #our-branches .our-branches_slider  .item .box_info .box_info_item .branches {
     font-weight: bold;
     font-size: 18px;
@@ -1263,6 +1256,7 @@ body.burger-menu_active{
 }
 #our-branches .our-branches_slider  .item .box_info .box_info_item .address {
     font-weight: bold;
+    width: 84%;
     font-size: 15px;
     line-height: 20px;
     color: #808080;
