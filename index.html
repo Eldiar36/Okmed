@@ -1,0 +1,1623 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+          integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+          crossorigin="anonymous"/>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+          integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+          crossorigin="anonymous"/>
+</head>
+<body>
+<header>
+    <div class="header-top">
+        <ul>
+            <li><a href="#">О компании</a></li>
+            <li><a href="#">Лицензии</a></li>
+            <li><a href="#">Услуги и цены</a></li>
+            <li><a href="#">Для организаций</a></li>
+            <li><a href="#">Контакты</a></li>
+        </ul>
+    </div>
+    <div class="header-center">
+        <div class="container">
+            <div class="header-wrapper">
+                <a href="#" class="logo">
+                    <svg width="270" height="61" viewBox="0 0 329 69" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M84.12 42.64C82.0133 45.2 79.1867 46.48 75.64 46.48C72.0933 46.48 69.2667 45.2 67.16 42.64C65.0533 40.08 64 36.76 64 32.68C64 28.6 65.0533 25.28 67.16 22.72C69.2667 20.16 72.0933 18.88 75.64 18.88C79.1867 18.88 82.0133 20.16 84.12 22.72C86.2267 25.28 87.28 28.6 87.28 32.68C87.28 36.76 86.2267 40.08 84.12 42.64ZM75.64 40.76C77.24 40.76 78.48 40.0133 79.36 38.52C80.2667 37 80.72 35.0533 80.72 32.68C80.72 30.28 80.2667 28.3333 79.36 26.84C78.48 25.3467 77.24 24.6 75.64 24.6C74.0667 24.6 72.8267 25.3467 71.92 26.84C71.04 28.3333 70.6 30.28 70.6 32.68C70.6 35.0533 71.04 37 71.92 38.52C72.8267 40.0133 74.0667 40.76 75.64 40.76ZM111.553 46H103.913L98.5925 36.24L96.9125 39.04V46H90.4325V19.32H96.9125V30.6L103.513 19.32H111.033L102.673 31.8L111.553 46Z"
+                              fill="#23B388"/>
+                        <path d="M139.64 46H133.2V30.16L127.8 46H125.28L119.92 30.16V46H113.44V19.32H122.04L126.56 32.64L131.12 19.32H139.64V46ZM159.95 46H143.87V19.32H159.95V24.96H150.35V29.64H159.67V35.28H150.35V40.36H159.95V46ZM172.878 46H163.518V19.32H172.878C176.612 19.32 179.545 20.5467 181.678 23C183.838 25.4267 184.918 28.6533 184.918 32.68C184.918 36.7067 183.852 39.9333 181.718 42.36C179.585 44.7867 176.638 46 172.878 46ZM172.878 40.36C174.585 40.36 175.918 39.6667 176.878 38.28C177.838 36.8933 178.318 35.0267 178.318 32.68C178.318 30.2 177.852 28.2933 176.918 26.96C175.985 25.6267 174.638 24.96 172.878 24.96H169.998V40.36H172.878Z"
+                              fill="#F1530E"/>
+                        <path d="M213 43H211.656L209.22 39.962L208.1 41.068V43H207.05V36.238H208.1V39.836L211.656 36.238H212.986L209.99 39.304L213 43ZM213.443 43.168V42.3C213.761 42.3 214.022 42.09 214.227 41.67C214.433 41.25 214.601 40.55 214.731 39.57L215.165 36.238H219.869V43H218.819V37.162H216.089L215.781 39.696C215.632 40.9373 215.371 41.8287 214.997 42.37C214.624 42.902 214.106 43.168 213.443 43.168ZM222.974 43H221.966V36.238H223.016V41.404L226.558 36.238H227.594V43H226.544V37.736L222.974 43ZM230.741 43H229.691V36.238H230.741V39.052H234.269V36.238H235.319V43H234.269V39.976H230.741V43ZM238.423 43H237.415V36.238H238.465V41.404L242.007 36.238H243.043V43H241.993V37.736L238.423 43ZM251.09 43H249.746L247.31 39.962L246.19 41.068V43H245.14V36.238H246.19V39.836L249.746 36.238H251.076L248.08 39.304L251.09 43ZM253.339 43H252.331V36.238H253.381V41.404L256.923 36.238H257.959V43H256.909V37.736L253.339 43Z"
+                              fill="#333333"/>
+                        <path d="M213.952 28H212.902V22.694L210.704 28H210.312L208.1 22.694V28H207.05V21.238H208.436L210.508 26.25L212.552 21.238H213.952V28ZM217.096 28H216.046V21.238H217.096V24.052H220.624V21.238H221.674V28H220.624V24.976H217.096V28ZM229.147 27.146C228.54 27.8273 227.733 28.168 226.725 28.168C225.717 28.168 224.905 27.8273 224.289 27.146C223.682 26.4647 223.379 25.62 223.379 24.612C223.379 23.604 223.682 22.764 224.289 22.092C224.905 21.4107 225.717 21.07 226.725 21.07C227.733 21.07 228.54 21.4107 229.147 22.092C229.763 22.764 230.071 23.604 230.071 24.612C230.071 25.62 229.763 26.4647 229.147 27.146ZM225.073 26.474C225.483 26.978 226.034 27.23 226.725 27.23C227.415 27.23 227.961 26.978 228.363 26.474C228.764 25.9607 228.965 25.34 228.965 24.612C228.965 23.884 228.764 23.268 228.363 22.764C227.961 22.26 227.415 22.008 226.725 22.008C226.034 22.008 225.483 22.2647 225.073 22.778C224.671 23.282 224.471 23.8933 224.471 24.612C224.471 25.34 224.671 25.9607 225.073 26.474ZM236.514 21.238V22.162H232.832V28H231.782V21.238H236.514ZM243.256 27.146C242.649 27.8273 241.842 28.168 240.834 28.168C239.826 28.168 239.014 27.8273 238.398 27.146C237.791 26.4647 237.488 25.62 237.488 24.612C237.488 23.604 237.791 22.764 238.398 22.092C239.014 21.4107 239.826 21.07 240.834 21.07C241.842 21.07 242.649 21.4107 243.256 22.092C243.872 22.764 244.18 23.604 244.18 24.612C244.18 25.62 243.872 26.4647 243.256 27.146ZM239.182 26.474C239.593 26.978 240.143 27.23 240.834 27.23C241.525 27.23 242.071 26.978 242.472 26.474C242.873 25.9607 243.074 25.34 243.074 24.612C243.074 23.884 242.873 23.268 242.472 22.764C242.071 22.26 241.525 22.008 240.834 22.008C240.143 22.008 239.593 22.2647 239.182 22.778C238.781 23.282 238.58 23.8933 238.58 24.612C238.58 25.34 238.781 25.9607 239.182 26.474ZM251.52 28H250.47V22.162H246.942V28H245.892V21.238H251.52V28ZM256.948 28.168C255.996 28.168 255.236 27.7713 254.666 26.978V30.576H253.616V21.238H254.666V22.246C254.918 21.8913 255.245 21.6067 255.646 21.392C256.048 21.1773 256.482 21.07 256.948 21.07C257.844 21.07 258.568 21.392 259.118 22.036C259.678 22.6707 259.958 23.5293 259.958 24.612C259.958 25.6947 259.678 26.558 259.118 27.202C258.568 27.846 257.844 28.168 256.948 28.168ZM256.682 27.23C257.345 27.23 257.872 26.9873 258.264 26.502C258.656 26.0073 258.852 25.3773 258.852 24.612C258.852 23.8467 258.656 23.2213 258.264 22.736C257.872 22.2507 257.345 22.008 256.682 22.008C256.281 22.008 255.889 22.1153 255.506 22.33C255.133 22.5353 254.853 22.7873 254.666 23.086V26.138C254.853 26.446 255.133 26.7073 255.506 26.922C255.889 27.1273 256.281 27.23 256.682 27.23ZM267.004 27.146C266.397 27.8273 265.59 28.168 264.582 28.168C263.574 28.168 262.762 27.8273 262.146 27.146C261.539 26.4647 261.236 25.62 261.236 24.612C261.236 23.604 261.539 22.764 262.146 22.092C262.762 21.4107 263.574 21.07 264.582 21.07C265.59 21.07 266.397 21.4107 267.004 22.092C267.62 22.764 267.928 23.604 267.928 24.612C267.928 25.62 267.62 26.4647 267.004 27.146ZM262.93 26.474C263.341 26.978 263.891 27.23 264.582 27.23C265.273 27.23 265.819 26.978 266.22 26.474C266.621 25.9607 266.822 25.34 266.822 24.612C266.822 23.884 266.621 23.268 266.22 22.764C265.819 22.26 265.273 22.008 264.582 22.008C263.891 22.008 263.341 22.2647 262.93 22.778C262.529 23.282 262.328 23.8933 262.328 24.612C262.328 25.34 262.529 25.9607 262.93 26.474ZM271.81 21.07C272.575 21.07 273.191 21.4667 273.658 22.26V18.662H274.708V22.246C274.913 21.8913 275.175 21.6067 275.492 21.392C275.819 21.1773 276.169 21.07 276.542 21.07C277.27 21.07 277.858 21.392 278.306 22.036C278.754 22.6707 278.978 23.5293 278.978 24.612C278.978 25.6947 278.749 26.558 278.292 27.202C277.844 27.846 277.261 28.168 276.542 28.168C275.777 28.168 275.165 27.7713 274.708 26.978V30.576H273.658V26.992C273.453 27.3467 273.187 27.6313 272.86 27.846C272.533 28.0607 272.183 28.168 271.81 28.168C271.082 28.168 270.494 27.8507 270.046 27.216C269.598 26.572 269.374 25.7087 269.374 24.626C269.374 23.5433 269.598 22.68 270.046 22.036C270.503 21.392 271.091 21.07 271.81 21.07ZM272.104 22.008C271.591 22.008 271.185 22.2553 270.886 22.75C270.587 23.2353 270.438 23.8607 270.438 24.626C270.438 25.3913 270.587 26.0167 270.886 26.502C271.185 26.9873 271.591 27.23 272.104 27.23C272.421 27.23 272.725 27.1273 273.014 26.922C273.303 26.7167 273.518 26.46 273.658 26.152V23.1C273.509 22.792 273.289 22.5353 273 22.33C272.711 22.1153 272.412 22.008 272.104 22.008ZM276.248 27.23C276.761 27.23 277.167 26.9873 277.466 26.502C277.765 26.0073 277.914 25.3773 277.914 24.612C277.914 23.8467 277.765 23.2213 277.466 22.736C277.167 22.2507 276.761 22.008 276.248 22.008C275.94 22.008 275.641 22.1153 275.352 22.33C275.063 22.5353 274.848 22.7873 274.708 23.086V26.138C274.857 26.446 275.072 26.7073 275.352 26.922C275.641 27.1273 275.94 27.23 276.248 27.23ZM281.818 28H280.81V21.238H281.86V26.404L285.402 21.238H286.438V28H285.388V22.736L281.818 28ZM287.736 28.168V27.3C288.054 27.3 288.315 27.09 288.52 26.67C288.726 26.25 288.894 25.55 289.024 24.57L289.458 21.238H294.162V28H293.112V22.162H290.382L290.074 24.696C289.925 25.9373 289.664 26.8287 289.29 27.37C288.917 27.902 288.399 28.168 287.736 28.168ZM296.259 21.238H297.309V23.856H299.843C300.515 23.856 301.038 24.0567 301.411 24.458C301.784 24.85 301.971 25.34 301.971 25.928C301.971 26.516 301.78 27.0107 301.397 27.412C301.024 27.804 300.506 28 299.843 28H296.259V21.238ZM299.731 24.78H297.309V27.076H299.731C300.104 27.076 300.389 26.9733 300.585 26.768C300.79 26.5533 300.893 26.2733 300.893 25.928C300.893 25.5827 300.79 25.3073 300.585 25.102C300.389 24.8873 300.104 24.78 299.731 24.78ZM304.623 28H303.573V21.238H304.623V24.052H308.151V21.238H309.201V28H308.151V24.976H304.623V28ZM311.298 21.238H312.348V23.856H314.882C315.554 23.856 316.077 24.0567 316.45 24.458C316.823 24.85 317.01 25.34 317.01 25.928C317.01 26.516 316.819 27.0107 316.436 27.412C316.063 27.804 315.545 28 314.882 28H311.298V21.238ZM314.77 24.78H312.348V27.076H314.77C315.143 27.076 315.428 26.9733 315.624 26.768C315.829 26.5533 315.932 26.2733 315.932 25.928C315.932 25.5827 315.829 25.3073 315.624 25.102C315.428 24.8873 315.143 24.78 314.77 24.78ZM319.166 28H318.116V21.238H319.166V28ZM324.317 28.168C323.309 28.168 322.483 27.8413 321.839 27.188C321.195 26.5253 320.873 25.6667 320.873 24.612C320.873 23.6227 321.19 22.7873 321.825 22.106C322.46 21.4153 323.253 21.07 324.205 21.07C325.204 21.07 325.992 21.4153 326.571 22.106C327.159 22.7873 327.453 23.6507 327.453 24.696V24.962H321.979C322.026 25.6247 322.268 26.18 322.707 26.628C323.146 27.076 323.715 27.3 324.415 27.3C325.255 27.3 325.95 27.0153 326.501 26.446L327.005 27.132C326.314 27.8227 325.418 28.168 324.317 28.168ZM326.417 24.192C326.408 23.6133 326.212 23.0953 325.829 22.638C325.446 22.1713 324.9 21.938 324.191 21.938C323.519 21.938 322.987 22.1667 322.595 22.624C322.212 23.0813 322.007 23.604 321.979 24.192H326.417Z"
+                              fill="#333333"/>
+                        <path d="M3.07031 28.2578C3.07031 46.3416 15.4922 47.4212 28.1901 64.6953C39.5078 49.0407 51.9297 46.3477 51.9297 40.6797"
+                              stroke="#F1530E" stroke-width="5"/>
+                        <path d="M54 35.4816H33.5711V45.6484H23.4265V35.4816H13.0078V28.2578" stroke="#23B388"
+                              stroke-width="5.5"/>
+                        <path d="M3.48438 21.6329C5.77936 12.5235 12.5733 3 28.7422 3C41.3309 3 51.9297 15.2888 51.9297 28.5782V34.0548"
+                              stroke="#23B388" stroke-width="5"/>
+                        <path d="M1 26.9817H22.9453V16.6641H33.1588V26.9817H43.6484V33.2266" stroke="#F1530E"
+                              stroke-width="5"/>
+                        <line x1="197" y1="20" x2="197" y2="45" stroke="#23B388" stroke-width="2"/>
+                    </svg>
+                </a>
+                <div class="status d-flex align-items-center">
+                    <img src="assets/images/how_to_reg_24px_outlined.svg" alt="">
+                    <p>Официальная водительская медкомиссия</p>
+                </div>
+                <div class="license d-flex align-items-center">
+                    <img src="assets/images/lic.svg" alt="">
+                    <p>Лицензия департамента здравоохранения города Москвы</p>
+                </div>
+                <div class="address d-flex align-items-center">
+                    <img src="assets/images/add_location_24px.svg" alt="">
+                    <p>Москва и МО</p>
+                </div>
+                <div class="schedule d-flex align-items-center">
+                    <img src="assets/images/schedule_24px.svg" alt="">
+                    <div class="times">
+                        <p>ПН-ПТ: <span>09:00-20:00</span></p>
+                        <p>CБ: <span>10:00-19:00</span></p>
+                        <p>ВС: <span>10:30-18:00</span></p>
+                    </div>
+                </div>
+                <div class="number">
+                    <a href="tel:+7(495)416-09-70">+7 (495) <span>416-09-70</span></a>
+                </div>
+                <div class="burger-menu " id="burger-menu">
+
+                    <a href="#" class="burger-menu_button">
+                        <span class="burger-menu-lines"></span>
+                        <span class="burger-menu-lines"></span>
+                        <span class="burger-menu-lines"></span>
+                    </a>
+                    <nav class="burger-menu_nav">
+                        <ul>
+                            <li>
+                                <a class="burger-menu_link" href="#">О компании
+                                </a>
+                            </li>
+                            <li>
+                                <a class="burger-menu_link" href="#">Лицензии</a>
+                            </li>
+                            <li>
+                                <a class="burger-menu_link" href="#">Услуги и цены</a>
+                            </li>
+                            <li>
+                                <a class="burger-menu_link" href="#"> Для организаций</a>
+                            </li>
+                            <li>
+                                <a class="burger-menu_link" href="#">Контакты
+                                </a>
+                            </li>
+                        </ul>
+                        <img class="logo1" src="assets/images/Group%2057.svg" alt="">
+                        <div class="location">
+                            <img src="assets/images/add_location_24px.svg" alt="">
+                            <p>Москва и МО</p>
+                        </div>
+                        <div class="schedule1">
+                            <img src="assets/images/schedule_24px.svg" alt="">
+                            <div class="times">
+                                <p>ПН-ПТ: <span>09:00-20:00</span></p>
+                                <p>CБ: <span>10:00-19:00</span></p>
+                                <p>ВС: <span>10:30-18:00</span></p>
+                            </div>
+                        </div>
+                    </nav>
+                    <div class="burger-menu_overlay">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header_nav">
+        <div class="container">
+            <ul class="d-flex">
+                <li class="active"><a class="header_nav-link " href="#">
+                    <img src="assets/images/Vector.svg" alt="">
+                    Водительская комиссия
+                </a></li>
+                <li><a class="header_nav-link" href="#">
+                    <img src="assets/images/gun%201.svg" alt="">
+                    Медсправки на оружие
+                </a></li>
+                <li><a class="header_nav-link" href="#">
+                    <img src="assets/images/users%201.svg" alt="">
+                    Справки на работу
+                </a></li>
+                <li><a class="header_nav-link" href="#">
+                    <img src="assets/images/open-book%201.svg" alt="">
+                    Медицинские книжки
+                </a></li>
+                <li><a class="header_nav-link" href="#">
+                    <img src="assets/images/hospital-medical-signal-of-a-cross-in-a-circle%201.svg" alt="">
+                    Комиссии и профосмотры
+                </a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="header_nav-mobile" id="nav_mobile">
+        <ul class="nav-mobile_slider owl-carousel owl-theme">
+            <li>
+                <a href="#" class="link">
+                    <img src="assets/images/Vector.svg" alt="">
+                    Водительская комиссия
+                </a>
+            </li>
+            <li>
+                <a href="#" class="link">
+                    <img src="assets/images/gun%201.svg" alt="">
+                    Медсправки на оружие
+                </a>
+            </li>
+            <li>
+                <a href="#" class="link">
+                    <img src="assets/images/users%201.svg" alt="">
+                    Справки на работу
+                </a>
+            </li>
+            <li>
+                <a href="#" class="link">
+                    <img src="assets/images/open-book%201.svg" alt="">
+                    Медицинские книжки
+                </a>
+            </li>
+            <li>
+                <a href="#" class="link">
+                    <img src="assets/images/hospital-medical-signal-of-a-cross-in-a-circle%201.svg" alt="">
+                    Комиссии и профосмотры
+                </a>
+            </li>
+
+        </ul>
+    </div>
+</header>
+<main>
+    <div class="page_navigation">
+        <div class="container">
+            <div class="page_navigation-wrap">
+                <a href="#" class="main">
+                    Главная
+                    <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.27875 0.5L0.221252 1.5575L3.65625 5L0.221252 8.4425L1.27875 9.5L5.77875 5L1.27875 0.5Z"
+                              fill="#9E9E9E"/>
+                    </svg>
+                </a>
+                <a href="#">
+                    Услуги
+                    <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.27875 0.5L0.221252 1.5575L3.65625 5L0.221252 8.4425L1.27875 9.5L5.77875 5L1.27875 0.5Z"
+                              fill="#9E9E9E"/>
+                    </svg>
+                </a>
+                <a href="#">
+                    Медосмотры и справки
+                    <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.27875 0.5L0.221252 1.5575L3.65625 5L0.221252 8.4425L1.27875 9.5L5.77875 5L1.27875 0.5Z"
+                              fill="#9E9E9E"/>
+                    </svg>
+                </a>
+                <a href="#">
+                    Водительская комиссия
+                </a>
+            </div>
+        </div>
+    </div>
+    <section id="medical_certificate">
+        <div class="container">
+            <h2 class="section-title">
+                Медсправка водительская по новой форме 003-в/у
+            </h2>
+            <div class="status-mobile">
+                <div class="item">
+                    <img src="assets/images/how_to_reg_24px_outlined.svg" alt="">
+                    <p>Официальная водительская медкомиссия</p>
+                </div>
+                <div class="item">
+                    <img src="assets/images/lic.svg" alt="">
+                    <p>Лицензия департамента здравоохранения города Москвы</p>
+                </div>
+            </div>
+            <p class="section-subtitle">
+                Медицинская справка по форме 003-в/у требуется для оформления и замены водительских прав. В сети наших
+                медцентров в Москве и области можно получить медсправку для ГИБДД в день обращения. Медкомиссия займет
+                всего 20 минут. У нас нет очередей, приехать можно как с утра, так и вечером. Работаем без выходных.
+                Справки оформляем официально, по госстандартам.
+            </p>
+            <div class="row">
+                <div class="col-xl-9 col-lg-12">
+                    <div class="box_info">
+                        <p class="box-title">
+                            Рассчитать стоимость водительской медкомиссии
+                        </p>
+                        <form action="">
+                            <div class="item">
+                                <div class="select first">
+                                    <label for="select1">Категория медсправки</label>
+                                    <input class="select__input" id="select1" type="hidden" name="">
+                                    <div class="select__head">Для водителей категории А, А1, В, В1</div>
+                                    <ul class="select__list" style="display: none;">
+                                        <li class="select__item"><a
+                                                href="https://www.osetinskiyepirogi.com/moscow/rayon_butyirskiy/">Для
+                                            водителей категории А, А1, В, В1</a></li>
+                                    </ul>
+                                </div>
+                                <div class="checkbox-box">
+                                    <label>
+                                        Справка от нарколога и психиатра
+                                    </label>
+                                    <div class="checkbox-wrap d-flex align-items-center">
+                                        <input type="checkbox" id="check" class="checkbox" checked>
+                                        <span class="checkbox-toggle">
+                                            </span>
+                                        <p> Получить в нашем медцентре</p>
+
+                                    </div>
+                                </div>
+                                <div class="checkbox-box">
+                                    <label>
+                                        Электроэнцефалография:
+                                    </label>
+                                    <div class="checkbox-wrap d-flex align-items-center">
+                                        <input type="checkbox" id="check1" class="checkbox">
+                                        <span class="checkbox-toggle">
+                                            </span>
+                                        <p class="pc"> ЭЭГ (для профессиональных водителей)</p>
+                                        <p class="mobile"> ЭЭГ (для профессиональных <br> водителей)</p>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </form>
+                        <div class="medical_certificate_result">
+                            <div class="result_box">
+                                <div class="item">
+                                    <p>Время прохождения:
+                                        <span>30 мин</span>
+                                    </p>
+
+                                </div>
+                                <div class="item">
+                                    <p>Стоимость комиссии:
+                                        <span>2 500 руб.</span>
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="select-row">
+                            <div class="select">
+                                <input class="select__input" id="select12" type="hidden" name="">
+                                <div class="select__head">
+                                    <img  style="width: 15px;height: 20px" src="assets/images/Group%20(1).svg" alt="">
+                                    Выберите город
+                                </div>
+                                <ul class="select__list" style="display: none;">
+                                    <li class="select__item"><a
+                                            href="https://www.osetinskiyepirogi.com/moscow/rayon_butyirskiy/" target="_blank">Выберите
+                                        город</a></li>
+                                </ul>
+                            </div>
+                            <div class="select">
+
+                                <input class="select__input" id="select13" type="hidden" name="">
+                                <div class="select__head">
+                                    <img style="width: 23px;height: 16px" src="assets/images/Group.svg" alt="">
+                                    Выберите метро
+                                </div>
+                                <ul class="select__list" style="display: none;">
+                                    <li class="select__item">
+                                        <a href="https://www.osetinskiyepirogi.com/moscow/rayon_butyirskiy/" target="_blank">Борисово</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="select">
+                                <input class="select__input" id="select14" type="hidden" name="">
+                                <div class="select__head">
+                                    <img style="width: 20px;height: 20px" src="assets/images/Vector%20(1).svg" alt="">
+                                    Выберите округ
+                                </div>
+                                <ul class="select__list" style="display: none;">
+                                    <li class="select__item">
+                                        <a href="https://www.osetinskiyepirogi.com/moscow/rayon_butyirskiy/" target="_blank">
+                                            Округ 1
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4">
+                    <div class="img_box">
+                        <div class="img_banners">
+                            <div class="banner banner1">
+                                <h3 class="title">Скидки</h3>
+                                <div class="item d-flex align-items-baseline">
+                                    <span>до</span>
+                                    <p>10%</p>
+                                </div>
+                            </div>
+                            <div class="banner banner2">
+                                <h3 class="title">ВРЕМЯ <br> МЕДКОМИССИИ</h3>
+                                <div class="item d-flex align-items-baseline">
+                                    <span>до</span>
+                                    <p>10%</p>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="assets/images/n_1%201.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <p class="section-subtitle mobile">
+                Медицинская справка по форме 003-в/у требуется для оформления и замены водительских прав. В сети наших
+                медцентров в Москве и области можно получить медсправку для ГИБДД в день обращения. Медкомиссия займет
+                всего 20 минут. У нас нет очередей, приехать можно как с утра, так и вечером. Работаем без выходных.
+                Справки оформляем официально, по госстандартам.
+            </p>
+        </div>
+    </section>
+    <section id="certificate-cost">
+        <div class="container">
+            <h2 class="section-title">
+                Стоимость медсправки 003-В/у для ГИБДД
+            </h2>
+            <table>
+                <tr>
+                    <th class="first">
+                        Наименование медсправки
+                    </th>
+                    <th class="second">№ формы</th>
+                    <th class="third">Время оформления</th>
+                    <th class="four">Стоимость</th>
+                    <th class="five">Онлайн запись</th>
+                </tr>
+                <tr>
+                    <td class="first ">Справка для ГИБДД (форма 003-В/у) для категории А, В</td>
+                    <td>302-Н</td>
+                    <td>от 30 минут</td>
+                    <td class="four price">от 1 200 руб.</td>
+                    <td></td>
+                </tr>
+                <tr class="second">
+                    <td class="first link">Справка для ГИБДД (форма 003-В/у) для категории А, В + нарколог и психиатр
+                    </td>
+                    <td>003-В/у</td>
+                    <td>от 30 минут</td>
+                    <td class="four price">от 2 200 руб.</td>
+                    <td class="number">+7 (495) <span> 416-09-70</span></td>
+                </tr>
+                <tr>
+                    <td class="first">
+                        Справка для ГИБДД (форма 003-В/у) для категории С, D, E с электроэнцефалограммой + нарколог и
+                        психиатр
+                    </td>
+                    <td>302-Н</td>
+                    <td>от 30 минут</td>
+                    <td class="four price">от 2 500 руб.</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="first">Справка для работы и учебы 086/У</td>
+                    <td>302-Н</td>
+                    <td>от 30 минут</td>
+                    <td class="four price">от 2 800 руб.</td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <section id="certificate-cost-mobile">
+        <div class="container">
+            <h2 class="section-title">
+                Стоимость медсправки 003-В/у для ГИБДД
+            </h2>
+            <table>
+                <tr>
+                    <th colspan="10" class="first">
+                        Наименование медсправки
+                    </th>
+                </tr>
+
+                <tr>
+                    <td class="name" colspan="10">Справка для ГИБДД (форма 003-В/у) для категории А, В</td>
+                </tr>
+                <tr>
+                    <th colspan="1"  >№ формы</th>
+                    <th colspan="1" >Время оформления</th>
+                </tr>
+                <tr>
+                    <td class="td_form" >302-Н</td>
+                    <td class="td_time">от 30 минут</td>
+                </tr>
+                <tr>
+                    <th class="price">Стоимость</th>
+                    <td class="price">от 1 200 руб.</td>
+                </tr>
+                <tr>
+                    <th colspan="10" class="first">
+                        Наименование медсправки
+                    </th>
+                </tr>
+                <tr>
+                    <td colspan="10" class="name">Справка для ГИБДД (форма 003-В/у) для категории А, В</td>
+                </tr>
+                <tr>
+                    <th  >№ формы</th>
+                    <th >Время оформления</th>
+                </tr>
+                <tr>
+                    <td class="td_form" >302-Н</td>
+                    <td class="td_time">от 30 минут</td>
+                </tr>
+                <tr>
+                    <th class="price">Стоимость</th>
+                    <td class="price">от 1 200 руб.</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <section id="doctors-list">
+        <div class="container">
+            <h2 class="section-title">
+                Список врачей для получения медсправок
+            </h2>
+            <div class="row justify-content-center">
+                <div class="col-xl-4 col-lg-6 col-md-8" style="padding: 0">
+                    <div class="img_box">
+                         <div class="img_banners">
+                             <div class="banner banner1">
+                                 <h3 class="title">ВРЕМЯ МЕДКОМИССИИ</h3>
+                                 <div class="item d-flex align-items-end">
+                                     <span>от</span>
+                                     <p>20МИН</p>
+                                 </div>
+                             </div>
+                         </div>
+                        <img src="assets/images/n_2%201.png" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-8 col-lg-12 col-md-12" style="padding: 0">
+                    <div class="list_box d-flex">
+                        <div class="list_item">
+                            <p class="title">Категория: A, A1, B, BE, B1, M</p>
+                            <ul>
+                                <li>Врач-терапевт или врач общей практики</li>
+                                <li>Офтальмолог</li>
+                                <li>Психиатр</li>
+                                <li>Психиатр-нарколог</li>
+                                <li>Невролог (по направлению терапевта)</li>
+                            </ul>
+                        </div>
+                        <div class="list_item">
+                            <p class="title">Категория: C, CE, C1, C1E, D, DE, D1, D1E, Tm, Tb</p>
+                            <div class="list-wrap d-flex">
+                                <ul>
+                                    <li>Врач-терапевт или врач общей практики</li>
+                                    <li>Офтальмолог</li>
+                                    <li>Психиатр</li>
+                                    <li>Психиатр-нарколог</li>
+                                    <li>Невролог (по направлению терапевта)</li>
+                                </ul>
+                                <ul>
+                                    <li>Отоларинголог</li>
+                                    <li>Электроэнцефалография</li>
+                                    <li>Анализ мочи</li>
+                                    <li>Анализ крови</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="list-box_info">
+                <p>Обратите внимание, что в первую очередь нужно взять заключения у нарколога и психиатра. Если вы
+                    первый раз оформляете права, то этих специалистов нужно будет пройти в диспансерах по месту
+                    прописки. Для продления водительского удостоверения при истечении срока действия можно сделать
+                    заключения нарколога и психиатра в наших медцентрах (услуга доступна не во всех филиалах, уточняйте
+                    информацию у оператора по телефону +7 (495) 154-88-68).</p>
+            </div>
+        </div>
+    </section>
+    <section id="advantages">
+        <div class="container">
+            <h2 class="section-title">
+                Преимущества
+            </h2>
+            <div class="advantages-slider owl-carousel owl-theme">
+                <div class="item">
+                    <span class="text">
+                        Быстрое оформление медсправок
+                    </span>
+                    <img src="assets/images/Group.png" alt="">
+                </div>
+                <div class="item">
+                    <span class="text">
+                       Медицинские центры рядом с метро
+                    </span>
+                    <img src="assets/images/worldwide%201.png" alt="">
+                </div>
+                <div class="item">
+                    <span class="text">
+                        Нарколог и психиатр у нас в клиниках
+                    </span>
+                    <img src="assets/images/medicine%201.png" alt="">
+                </div>
+                <div class="item">
+                    <span class="text">
+                        Низкие цены, удобная оплата
+                    </span>
+                    <img src="assets/images/payment-method%201.png" alt="">
+                </div>
+                <div class="item">
+                    <span class="text">
+                        Официальное оформление
+                    </span>
+                    <img src="assets/images/rating%201.png" alt="">
+                </div>
+                <div class="item">
+                    <span class="text">
+                        Быстрое оформление медсправок
+                    </span>
+                    <img src="assets/images/Group.png" alt="">
+                </div>
+                <div class="item">
+                    <span class="text">
+                       Медицинские центры рядом с метро
+                    </span>
+                    <img src="assets/images/worldwide%201.png" alt="">
+                </div>
+                <div class="item">
+                    <span class="text">
+                        Нарколог и психиатр у нас в клиниках
+                    </span>
+                    <img src="assets/images/medicine%201.png" alt="">
+                </div>
+                <div class="item">
+                    <span class="text">
+                        Низкие цены, удобная оплата
+                    </span>
+                    <img src="assets/images/payment-method%201.png" alt="">
+                </div>
+                <div class="item">
+                    <span class="text">
+                        Официальное оформление
+                    </span>
+                    <img src="assets/images/rating%201.png" alt="">
+                </div>
+                <div class="item">
+                    <span class="text">
+                        Быстрое оформление медсправок
+                    </span>
+                    <img src="assets/images/Group.png" alt="">
+                </div>
+                <div class="item">
+                    <span class="text">
+                       Медицинские центры рядом с метро
+                    </span>
+                    <img src="assets/images/worldwide%201.png" alt="">
+                </div>
+                <div class="item">
+                    <span class="text">
+                        Нарколог и психиатр у нас в клиниках
+                    </span>
+                    <img src="assets/images/medicine%201.png" alt="">
+                </div>
+                <div class="item">
+                    <span class="text">
+                        Низкие цены, удобная оплата
+                    </span>
+                    <img src="assets/images/payment-method%201.png" alt="">
+                </div>
+                <div class="item">
+                    <span class="text">
+                        Официальное оформление
+                    </span>
+                    <img src="assets/images/rating%201.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="advantages-mobile">
+        <div class="container">
+            <div class="box">
+                <h2 class="section-title">
+                    Преимущества
+                </h2>
+                <div class="item">
+                    <span class="text">
+                        Быстрое оформление <br> медсправок
+                    </span>
+                    <img src="assets/images/Group.png" alt="">
+                </div>
+                <div class="item">
+                    <span class="text">
+                       Медицинские центры <br> рядом с метро
+                    </span>
+                    <img src="assets/images/worldwide%201.png" alt="">
+                </div>
+                <div class="item">
+                    <span class="text">
+                        Нарколог и психиатр <br> у нас в клиниках
+                    </span>
+                    <img src="assets/images/medicine%201.png" alt="">
+                </div>
+                <div class="item">
+                    <span class="text">
+                        Низкие цены, <br> удобная оплата
+                    </span>
+                    <img src="assets/images/payment-method%201.png" alt="">
+                </div>
+                <div class="item">
+                    <span class="text">
+                        Официальное <br> оформление
+                    </span>
+                    <img src="assets/images/rating%201.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="our-branches">
+        <div class="our-branches_box">
+            <div class="container">
+                <h2 class="section-title">
+                    28 филиалов в Москве и МО
+                </h2>
+                <div class="our-branches_slider owl-carousel owl-theme">
+                    <div class="slider-item">
+                        <div class="item">
+                            <div class="box_info">
+                                <div class="box_info_item ">
+                                    <div class="img">
+
+                                    </div>
+                                    <a class="branches" href="#">м. Братиславская</a>
+                                </div>
+                                <div class="box_info_item ">
+                                    <div class="img">
+
+                                    </div>
+                                    <span class="address">Москва, ул. Братиславская, 33</span>
+                                </div>
+                                <div class="box_info_item ">
+                                    <div class="img">
+
+                                    </div>
+                                    <span class="schedule">Пн-Сб: 9:00 - 20:00, Вс:10:00 - 19:00</span>
+                                </div>
+                            </div>
+                            <div class="box_img">
+                                <img src="assets/images/i_1%201.png" alt="">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="box_info">
+                                <div class="box_info_item ">
+                                    <div class="img">
+
+
+                                    </div>
+                                    <a class="branches" href="#">Бульвар Рокоссовского</a>
+                                </div>
+                                <div class="box_info_item ">
+                                    <div class="img">
+
+                                    </div>
+                                    <span class="address">Москва, ул. Ивантеевская, 21</span>
+                                </div>
+                                <div class="box_info_item ">
+                                    <div class="img">
+
+                                    </div>
+                                    <span class="schedule">Пн-Сб: 9:00 - 20:00, Вс: 10:00 - 19:00</span>
+                                </div>
+                            </div>
+                            <div class="box_img">
+                                <img src="assets/images/i_1%201.png" alt="">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="box_info">
+                                <div class="box_info_item ">
+                                    <div class="img">
+
+                                    </div>
+                                    <a class="branches" href="#">Китай Город</a>
+                                </div>
+                                <div class="box_info_item ">
+                                    <div class="img">
+
+                                    </div>
+                                    <span class="address">Москва, ул. Лубянский проезд, 27/1 стр 1</span>
+                                </div>
+                                <div class="box_info_item ">
+                                    <div class="img">
+
+                                    </div>
+                                    <span class="schedule">Пн-Сб: 9:00 - 20:00, Вс: 10:00 - 19:00</span>
+                                </div>
+                            </div>
+                            <div class="box_img">
+                                <img src="assets/images/i_1%201.png" alt="">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="box_info">
+                                <div class="box_info_item ">
+                                    <div class="img">
+
+
+                                    </div>
+                                    <a class="branches" href="#">м. Универститет</a>
+                                </div>
+                                <div class="box_info_item ">
+                                    <div class="img">
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                  d="M0 7.53L18 0L10.46 18H9.48L6.84 11.16L0 8.51V7.53ZM10.03 13.86L14.27 3.73L4.14 7.96L7.57 9.29L8.39 9.61L8.71 10.44L10.03 13.86Z"
+                                                  fill="#F1530E"/>
+                                        </svg>
+                                    </div>
+                                    <span class="address">Москва,Университетский проспект, д. 5</span>
+                                </div>
+                                <div class="box_info_item ">
+                                    <div class="img">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                  d="M19 22C20.1 22 21 21.1 21 20V6C21 4.9 20.1 4 19 4H18V2H16V4H8V2H6V4H5C3.89 4 3.01 4.9 3.01 6L3 20C3 21.1 3.89 22 5 22H19ZM9 13V11H7V13H9ZM5 8H19V6H5V8ZM19 10V20H5V10H19ZM17 13V11H15V13H17ZM13 13H11V11H13V13Z"
+                                                  fill="#23B388"/>
+                                        </svg>
+                                    </div>
+                                    <span class="schedule">Пн-Сб: 9:00 - 20:00, Вс: 10:00 - 19:00</span>
+                                </div>
+                            </div>
+                            <div class="box_img">
+                                <img src="assets/images/i_1%201.png" alt="">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="box_info">
+                                <div class="box_info_item ">
+                                    <div class="img">
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="15" cy="15" r="15" fill="#0078BE"/>
+                                            <path d="M18.3915 9.16221L18.2409 9.16196L15.04 15.4343L11.7239 9.1084L7.18366 20.5363H6.01031V21.4542H12.4383V20.5363H11.1629L12.4383 16.9647L15.04 21.4542L17.5398 16.9647L18.815 20.5363H17.5398V21.4542H23.9165V20.5363H22.8118L18.3915 9.16221Z"
+                                                  fill="white"/>
+                                        </svg>
+
+                                    </div>
+                                    <a class="branches" href="#">Курская</a>
+                                </div>
+                                <div class="box_info_item ">
+                                    <div class="img">
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                  d="M0 7.53L18 0L10.46 18H9.48L6.84 11.16L0 8.51V7.53ZM10.03 13.86L14.27 3.73L4.14 7.96L7.57 9.29L8.39 9.61L8.71 10.44L10.03 13.86Z"
+                                                  fill="#F1530E"/>
+                                        </svg>
+                                    </div>
+                                    <span class="address">Москва,ул. Старая Басманная, д. 7, стр. 1</span>
+                                </div>
+                                <div class="box_info_item ">
+                                    <div class="img">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                  d="M19 22C20.1 22 21 21.1 21 20V6C21 4.9 20.1 4 19 4H18V2H16V4H8V2H6V4H5C3.89 4 3.01 4.9 3.01 6L3 20C3 21.1 3.89 22 5 22H19ZM9 13V11H7V13H9ZM5 8H19V6H5V8ZM19 10V20H5V10H19ZM17 13V11H15V13H17ZM13 13H11V11H13V13Z"
+                                                  fill="#23B388"/>
+                                        </svg>
+                                    </div>
+                                    <span class="schedule">Пн-Сб: 9:00 - 20:00, Вс: 10:00 - 19:00</span>
+                                </div>
+                            </div>
+                            <div class="box_img">
+                                <img src="assets/images/i_1%201.png" alt="">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="box_info">
+                                <div class="box_info_item ">
+                                    <div class="img">
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="15" cy="15" r="15" fill="#EFC943"/>
+                                            <path d="M18.3916 9.16221L18.241 9.16196L15.04 15.4343L11.724 9.1084L7.18372 20.5363H6.01038V21.4542H12.4384V20.5363H11.1629L12.4384 16.9647L15.04 21.4542L17.5399 16.9647L18.8151 20.5363H17.5399V21.4542H23.9166V20.5363H22.8119L18.3916 9.16221Z"
+                                                  fill="white"/>
+                                        </svg>
+
+                                    </div>
+                                    <a class="branches" href="#">Авиамоторная</a>
+                                </div>
+                                <div class="box_info_item ">
+                                    <div class="img">
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                  d="M0 7.53L18 0L10.46 18H9.48L6.84 11.16L0 8.51V7.53ZM10.03 13.86L14.27 3.73L4.14 7.96L7.57 9.29L8.39 9.61L8.71 10.44L10.03 13.86Z"
+                                                  fill="#F1530E"/>
+                                        </svg>
+                                    </div>
+                                    <span class="address">Москва,ул. Подъемная, д. 10</span>
+                                </div>
+                                <div class="box_info_item ">
+                                    <div class="img">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                  d="M19 22C20.1 22 21 21.1 21 20V6C21 4.9 20.1 4 19 4H18V2H16V4H8V2H6V4H5C3.89 4 3.01 4.9 3.01 6L3 20C3 21.1 3.89 22 5 22H19ZM9 13V11H7V13H9ZM5 8H19V6H5V8ZM19 10V20H5V10H19ZM17 13V11H15V13H17ZM13 13H11V11H13V13Z"
+                                                  fill="#23B388"/>
+                                        </svg>
+                                    </div>
+                                    <span class="schedule">Пн-Сб: 9:00 - 20:00, Вс: 10:00 - 19:00</span>
+                                </div>
+                            </div>
+                            <div class="box_img">
+                                <img src="assets/images/i_1%201.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-item">
+                        <div class="item">
+                            <div class="box_info">
+                                <div class="box_info_item ">
+                                    <div class="img">
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="15" cy="15" r="15" fill="#99CC00"/>
+                                            <path d="M18.3915 9.16221L18.2409 9.16196L15.04 15.4343L11.7239 9.1084L7.18367 20.5363H6.01032V21.4542H12.4383V20.5363H11.1629L12.4383 16.9647L15.04 21.4542L17.5398 16.9647L18.815 20.5363H17.5398V21.4542H23.9165V20.5363H22.8118L18.3915 9.16221Z"
+                                                  fill="white"/>
+                                        </svg>
+                                    </div>
+                                    <a class="branches" href="#">м. Братиславская</a>
+                                </div>
+                                <div class="box_info_item ">
+                                    <div class="img">
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                  d="M0 7.53L18 0L10.46 18H9.48L6.84 11.16L0 8.51V7.53ZM10.03 13.86L14.27 3.73L4.14 7.96L7.57 9.29L8.39 9.61L8.71 10.44L10.03 13.86Z"
+                                                  fill="#F1530E"/>
+                                        </svg>
+                                    </div>
+                                    <span class="address">Москва, ул. Братиславская, 33</span>
+                                </div>
+                                <div class="box_info_item ">
+                                    <div class="img">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                  d="M19 22C20.1 22 21 21.1 21 20V6C21 4.9 20.1 4 19 4H18V2H16V4H8V2H6V4H5C3.89 4 3.01 4.9 3.01 6L3 20C3 21.1 3.89 22 5 22H19ZM9 13V11H7V13H9ZM5 8H19V6H5V8ZM19 10V20H5V10H19ZM17 13V11H15V13H17ZM13 13H11V11H13V13Z"
+                                                  fill="#23B388"/>
+                                        </svg>
+                                    </div>
+                                    <span class="schedule">Пн-Сб: 9:00 - 20:00, Вс: 10:00 - 19:00</span>
+                                </div>
+                            </div>
+                            <div class="box_img">
+                                <img src="assets/images/i_1%201.png" alt="">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="box_info">
+                                <div class="box_info_item ">
+                                    <div class="img">
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="15" cy="15" r="15" fill="#99CC00"/>
+                                            <path d="M18.3915 9.16221L18.2409 9.16196L15.04 15.4343L11.7239 9.1084L7.18367 20.5363H6.01032V21.4542H12.4383V20.5363H11.1629L12.4383 16.9647L15.04 21.4542L17.5398 16.9647L18.815 20.5363H17.5398V21.4542H23.9165V20.5363H22.8118L18.3915 9.16221Z"
+                                                  fill="white"/>
+                                        </svg>
+                                    </div>
+                                    <a class="branches" href="#">Бульвар Рокоссовского</a>
+                                </div>
+                                <div class="box_info_item ">
+                                    <div class="img">
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                  d="M0 7.53L18 0L10.46 18H9.48L6.84 11.16L0 8.51V7.53ZM10.03 13.86L14.27 3.73L4.14 7.96L7.57 9.29L8.39 9.61L8.71 10.44L10.03 13.86Z"
+                                                  fill="#F1530E"/>
+                                        </svg>
+                                    </div>
+                                    <span class="address">Москва, ул. Ивантеевская, 21</span>
+                                </div>
+                                <div class="box_info_item ">
+                                    <div class="img">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                  d="M19 22C20.1 22 21 21.1 21 20V6C21 4.9 20.1 4 19 4H18V2H16V4H8V2H6V4H5C3.89 4 3.01 4.9 3.01 6L3 20C3 21.1 3.89 22 5 22H19ZM9 13V11H7V13H9ZM5 8H19V6H5V8ZM19 10V20H5V10H19ZM17 13V11H15V13H17ZM13 13H11V11H13V13Z"
+                                                  fill="#23B388"/>
+                                        </svg>
+                                    </div>
+                                    <span class="schedule">Пн-Сб: 9:00 - 20:00, Вс: 10:00 - 19:00</span>
+                                </div>
+                            </div>
+                            <div class="box_img">
+                                <img src="assets/images/i_1%201.png" alt="">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="box_info">
+                                <div class="box_info_item ">
+                                    <div class="img">
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="15" cy="15" r="15" fill="#99CC00"/>
+                                            <path d="M18.3915 9.16221L18.2409 9.16196L15.04 15.4343L11.7239 9.1084L7.18367 20.5363H6.01032V21.4542H12.4383V20.5363H11.1629L12.4383 16.9647L15.04 21.4542L17.5398 16.9647L18.815 20.5363H17.5398V21.4542H23.9165V20.5363H22.8118L18.3915 9.16221Z"
+                                                  fill="white"/>
+                                        </svg>
+                                    </div>
+                                    <a class="branches" href="#">м. Братиславская</a>
+                                </div>
+                                <div class="box_info_item ">
+                                    <div class="img">
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                  d="M0 7.53L18 0L10.46 18H9.48L6.84 11.16L0 8.51V7.53ZM10.03 13.86L14.27 3.73L4.14 7.96L7.57 9.29L8.39 9.61L8.71 10.44L10.03 13.86Z"
+                                                  fill="#F1530E"/>
+                                        </svg>
+                                    </div>
+                                    <span class="address">Москва, ул. Братиславская, 33</span>
+                                </div>
+                                <div class="box_info_item ">
+                                    <div class="img">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                  d="M19 22C20.1 22 21 21.1 21 20V6C21 4.9 20.1 4 19 4H18V2H16V4H8V2H6V4H5C3.89 4 3.01 4.9 3.01 6L3 20C3 21.1 3.89 22 5 22H19ZM9 13V11H7V13H9ZM5 8H19V6H5V8ZM19 10V20H5V10H19ZM17 13V11H15V13H17ZM13 13H11V11H13V13Z"
+                                                  fill="#23B388"/>
+                                        </svg>
+                                    </div>
+                                    <span class="schedule">Пн-Сб: 9:00 - 20:00, Вс: 10:00 - 19:00</span>
+                                </div>
+                            </div>
+                            <div class="box_img">
+                                <img src="assets/images/i_1%201.png" alt="">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="box_info">
+                                <div class="box_info_item ">
+                                    <div class="img">
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="15" cy="15" r="15" fill="#99CC00"/>
+                                            <path d="M18.3915 9.16221L18.2409 9.16196L15.04 15.4343L11.7239 9.1084L7.18367 20.5363H6.01032V21.4542H12.4383V20.5363H11.1629L12.4383 16.9647L15.04 21.4542L17.5398 16.9647L18.815 20.5363H17.5398V21.4542H23.9165V20.5363H22.8118L18.3915 9.16221Z"
+                                                  fill="white"/>
+                                        </svg>
+                                    </div>
+                                    <a class="branches" href="#">м. Братиславская</a>
+                                </div>
+                                <div class="box_info_item ">
+                                    <div class="img">
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                  d="M0 7.53L18 0L10.46 18H9.48L6.84 11.16L0 8.51V7.53ZM10.03 13.86L14.27 3.73L4.14 7.96L7.57 9.29L8.39 9.61L8.71 10.44L10.03 13.86Z"
+                                                  fill="#F1530E"/>
+                                        </svg>
+                                    </div>
+                                    <span class="address">Москва, ул. Братиславская, 33</span>
+                                </div>
+                                <div class="box_info_item ">
+                                    <div class="img">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                  d="M19 22C20.1 22 21 21.1 21 20V6C21 4.9 20.1 4 19 4H18V2H16V4H8V2H6V4H5C3.89 4 3.01 4.9 3.01 6L3 20C3 21.1 3.89 22 5 22H19ZM9 13V11H7V13H9ZM5 8H19V6H5V8ZM19 10V20H5V10H19ZM17 13V11H15V13H17ZM13 13H11V11H13V13Z"
+                                                  fill="#23B388"/>
+                                        </svg>
+                                    </div>
+                                    <span class="schedule">Пн-Сб: 9:00 - 20:00, Вс: 10:00 - 19:00</span>
+                                </div>
+                            </div>
+                            <div class="box_img">
+                                <img src="assets/images/i_1%201.png" alt="">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="box_info">
+                                <div class="box_info_item ">
+                                    <div class="img">
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="15" cy="15" r="15" fill="#99CC00"/>
+                                            <path d="M18.3915 9.16221L18.2409 9.16196L15.04 15.4343L11.7239 9.1084L7.18367 20.5363H6.01032V21.4542H12.4383V20.5363H11.1629L12.4383 16.9647L15.04 21.4542L17.5398 16.9647L18.815 20.5363H17.5398V21.4542H23.9165V20.5363H22.8118L18.3915 9.16221Z"
+                                                  fill="white"/>
+                                        </svg>
+                                    </div>
+                                    <a class="branches" href="#">м. Братиславская</a>
+                                </div>
+                                <div class="box_info_item ">
+                                    <div class="img">
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                  d="M0 7.53L18 0L10.46 18H9.48L6.84 11.16L0 8.51V7.53ZM10.03 13.86L14.27 3.73L4.14 7.96L7.57 9.29L8.39 9.61L8.71 10.44L10.03 13.86Z"
+                                                  fill="#F1530E"/>
+                                        </svg>
+                                    </div>
+                                    <span class="address">Москва, ул. Братиславская, 33</span>
+                                </div>
+                                <div class="box_info_item ">
+                                    <div class="img">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                  d="M19 22C20.1 22 21 21.1 21 20V6C21 4.9 20.1 4 19 4H18V2H16V4H8V2H6V4H5C3.89 4 3.01 4.9 3.01 6L3 20C3 21.1 3.89 22 5 22H19ZM9 13V11H7V13H9ZM5 8H19V6H5V8ZM19 10V20H5V10H19ZM17 13V11H15V13H17ZM13 13H11V11H13V13Z"
+                                                  fill="#23B388"/>
+                                        </svg>
+                                    </div>
+                                    <span class="schedule">Пн-Сб: 9:00 - 20:00, Вс: 10:00 - 19:00</span>
+                                </div>
+                            </div>
+                            <div class="box_img">
+                                <img src="assets/images/i_1%201.png" alt="">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="box_info">
+                                <div class="box_info_item ">
+                                    <div class="img">
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="15" cy="15" r="15" fill="#99CC00"/>
+                                            <path d="M18.3915 9.16221L18.2409 9.16196L15.04 15.4343L11.7239 9.1084L7.18367 20.5363H6.01032V21.4542H12.4383V20.5363H11.1629L12.4383 16.9647L15.04 21.4542L17.5398 16.9647L18.815 20.5363H17.5398V21.4542H23.9165V20.5363H22.8118L18.3915 9.16221Z"
+                                                  fill="white"/>
+                                        </svg>
+                                    </div>
+                                    <a class="branches" href="#">м. Братиславская</a>
+                                </div>
+                                <div class="box_info_item ">
+                                    <div class="img">
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                  d="M0 7.53L18 0L10.46 18H9.48L6.84 11.16L0 8.51V7.53ZM10.03 13.86L14.27 3.73L4.14 7.96L7.57 9.29L8.39 9.61L8.71 10.44L10.03 13.86Z"
+                                                  fill="#F1530E"/>
+                                        </svg>
+                                    </div>
+                                    <span class="address">Москва, ул. Братиславская, 33</span>
+                                </div>
+                                <div class="box_info_item ">
+                                    <div class="img">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                  d="M19 22C20.1 22 21 21.1 21 20V6C21 4.9 20.1 4 19 4H18V2H16V4H8V2H6V4H5C3.89 4 3.01 4.9 3.01 6L3 20C3 21.1 3.89 22 5 22H19ZM9 13V11H7V13H9ZM5 8H19V6H5V8ZM19 10V20H5V10H19ZM17 13V11H15V13H17ZM13 13H11V11H13V13Z"
+                                                  fill="#23B388"/>
+                                        </svg>
+                                    </div>
+                                    <span class="schedule">Пн-Сб: 9:00 - 20:00, Вс: 10:00 - 19:00</span>
+                                </div>
+                            </div>
+                            <div class="box_img">
+                                <img src="assets/images/i_1%201.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-item">
+                        <div class="item">
+                            <div class="box_info">
+                                <div class="box_info_item ">
+                                    <div class="img">
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="15" cy="15" r="15" fill="#99CC00"/>
+                                            <path d="M18.3915 9.16221L18.2409 9.16196L15.04 15.4343L11.7239 9.1084L7.18367 20.5363H6.01032V21.4542H12.4383V20.5363H11.1629L12.4383 16.9647L15.04 21.4542L17.5398 16.9647L18.815 20.5363H17.5398V21.4542H23.9165V20.5363H22.8118L18.3915 9.16221Z"
+                                                  fill="white"/>
+                                        </svg>
+                                    </div>
+                                    <a class="branches" href="#">м. Братиславская</a>
+                                </div>
+                                <div class="box_info_item ">
+                                    <div class="img">
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                  d="M0 7.53L18 0L10.46 18H9.48L6.84 11.16L0 8.51V7.53ZM10.03 13.86L14.27 3.73L4.14 7.96L7.57 9.29L8.39 9.61L8.71 10.44L10.03 13.86Z"
+                                                  fill="#F1530E"/>
+                                        </svg>
+                                    </div>
+                                    <span class="address">Москва, ул. Братиславская, 33</span>
+                                </div>
+                                <div class="box_info_item ">
+                                    <div class="img">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                  d="M19 22C20.1 22 21 21.1 21 20V6C21 4.9 20.1 4 19 4H18V2H16V4H8V2H6V4H5C3.89 4 3.01 4.9 3.01 6L3 20C3 21.1 3.89 22 5 22H19ZM9 13V11H7V13H9ZM5 8H19V6H5V8ZM19 10V20H5V10H19ZM17 13V11H15V13H17ZM13 13H11V11H13V13Z"
+                                                  fill="#23B388"/>
+                                        </svg>
+                                    </div>
+                                    <span class="schedule">Пн-Сб: 9:00 - 20:00, Вс: 10:00 - 19:00</span>
+                                </div>
+                            </div>
+                            <div class="box_img">
+                                <img src="assets/images/i_1%201.png" alt="">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="box_info">
+                                <div class="box_info_item ">
+                                    <div class="img">
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="15" cy="15" r="15" fill="#99CC00"/>
+                                            <path d="M18.3915 9.16221L18.2409 9.16196L15.04 15.4343L11.7239 9.1084L7.18367 20.5363H6.01032V21.4542H12.4383V20.5363H11.1629L12.4383 16.9647L15.04 21.4542L17.5398 16.9647L18.815 20.5363H17.5398V21.4542H23.9165V20.5363H22.8118L18.3915 9.16221Z"
+                                                  fill="white"/>
+                                        </svg>
+                                    </div>
+                                    <a class="branches" href="#">Бульвар Рокоссовского</a>
+                                </div>
+                                <div class="box_info_item ">
+                                    <div class="img">
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                  d="M0 7.53L18 0L10.46 18H9.48L6.84 11.16L0 8.51V7.53ZM10.03 13.86L14.27 3.73L4.14 7.96L7.57 9.29L8.39 9.61L8.71 10.44L10.03 13.86Z"
+                                                  fill="#F1530E"/>
+                                        </svg>
+                                    </div>
+                                    <span class="address">Москва, ул. Ивантеевская, 21</span>
+                                </div>
+                                <div class="box_info_item ">
+                                    <div class="img">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                  d="M19 22C20.1 22 21 21.1 21 20V6C21 4.9 20.1 4 19 4H18V2H16V4H8V2H6V4H5C3.89 4 3.01 4.9 3.01 6L3 20C3 21.1 3.89 22 5 22H19ZM9 13V11H7V13H9ZM5 8H19V6H5V8ZM19 10V20H5V10H19ZM17 13V11H15V13H17ZM13 13H11V11H13V13Z"
+                                                  fill="#23B388"/>
+                                        </svg>
+                                    </div>
+                                    <span class="schedule">Пн-Сб: 9:00 - 20:00, Вс: 10:00 - 19:00</span>
+                                </div>
+                            </div>
+                            <div class="box_img">
+                                <img src="assets/images/i_1%201.png" alt="">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="box_info">
+                                <div class="box_info_item ">
+                                    <div class="img">
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="15" cy="15" r="15" fill="#99CC00"/>
+                                            <path d="M18.3915 9.16221L18.2409 9.16196L15.04 15.4343L11.7239 9.1084L7.18367 20.5363H6.01032V21.4542H12.4383V20.5363H11.1629L12.4383 16.9647L15.04 21.4542L17.5398 16.9647L18.815 20.5363H17.5398V21.4542H23.9165V20.5363H22.8118L18.3915 9.16221Z"
+                                                  fill="white"/>
+                                        </svg>
+                                    </div>
+                                    <a class="branches" href="#">м. Братиславская</a>
+                                </div>
+                                <div class="box_info_item ">
+                                    <div class="img">
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                  d="M0 7.53L18 0L10.46 18H9.48L6.84 11.16L0 8.51V7.53ZM10.03 13.86L14.27 3.73L4.14 7.96L7.57 9.29L8.39 9.61L8.71 10.44L10.03 13.86Z"
+                                                  fill="#F1530E"/>
+                                        </svg>
+                                    </div>
+                                    <span class="address">Москва, ул. Братиславская, 33</span>
+                                </div>
+                                <div class="box_info_item ">
+                                    <div class="img">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                  d="M19 22C20.1 22 21 21.1 21 20V6C21 4.9 20.1 4 19 4H18V2H16V4H8V2H6V4H5C3.89 4 3.01 4.9 3.01 6L3 20C3 21.1 3.89 22 5 22H19ZM9 13V11H7V13H9ZM5 8H19V6H5V8ZM19 10V20H5V10H19ZM17 13V11H15V13H17ZM13 13H11V11H13V13Z"
+                                                  fill="#23B388"/>
+                                        </svg>
+                                    </div>
+                                    <span class="schedule">Пн-Сб: 9:00 - 20:00, Вс: 10:00 - 19:00</span>
+                                </div>
+                            </div>
+                            <div class="box_img">
+                                <img src="assets/images/i_1%201.png" alt="">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="box_info">
+                                <div class="box_info_item ">
+                                    <div class="img">
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="15" cy="15" r="15" fill="#99CC00"/>
+                                            <path d="M18.3915 9.16221L18.2409 9.16196L15.04 15.4343L11.7239 9.1084L7.18367 20.5363H6.01032V21.4542H12.4383V20.5363H11.1629L12.4383 16.9647L15.04 21.4542L17.5398 16.9647L18.815 20.5363H17.5398V21.4542H23.9165V20.5363H22.8118L18.3915 9.16221Z"
+                                                  fill="white"/>
+                                        </svg>
+                                    </div>
+                                    <a class="branches" href="#">м. Братиславская</a>
+                                </div>
+                                <div class="box_info_item ">
+                                    <div class="img">
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                  d="M0 7.53L18 0L10.46 18H9.48L6.84 11.16L0 8.51V7.53ZM10.03 13.86L14.27 3.73L4.14 7.96L7.57 9.29L8.39 9.61L8.71 10.44L10.03 13.86Z"
+                                                  fill="#F1530E"/>
+                                        </svg>
+                                    </div>
+                                    <span class="address">Москва, ул. Братиславская, 33</span>
+                                </div>
+                                <div class="box_info_item ">
+                                    <div class="img">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                  d="M19 22C20.1 22 21 21.1 21 20V6C21 4.9 20.1 4 19 4H18V2H16V4H8V2H6V4H5C3.89 4 3.01 4.9 3.01 6L3 20C3 21.1 3.89 22 5 22H19ZM9 13V11H7V13H9ZM5 8H19V6H5V8ZM19 10V20H5V10H19ZM17 13V11H15V13H17ZM13 13H11V11H13V13Z"
+                                                  fill="#23B388"/>
+                                        </svg>
+                                    </div>
+                                    <span class="schedule">Пн-Сб: 9:00 - 20:00, Вс: 10:00 - 19:00</span>
+                                </div>
+                            </div>
+                            <div class="box_img">
+                                <img src="assets/images/i_1%201.png" alt="">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="box_info">
+                                <div class="box_info_item ">
+                                    <div class="img">
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="15" cy="15" r="15" fill="#99CC00"/>
+                                            <path d="M18.3915 9.16221L18.2409 9.16196L15.04 15.4343L11.7239 9.1084L7.18367 20.5363H6.01032V21.4542H12.4383V20.5363H11.1629L12.4383 16.9647L15.04 21.4542L17.5398 16.9647L18.815 20.5363H17.5398V21.4542H23.9165V20.5363H22.8118L18.3915 9.16221Z"
+                                                  fill="white"/>
+                                        </svg>
+                                    </div>
+                                    <a class="branches" href="#">м. Братиславская</a>
+                                </div>
+                                <div class="box_info_item ">
+                                    <div class="img">
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                  d="M0 7.53L18 0L10.46 18H9.48L6.84 11.16L0 8.51V7.53ZM10.03 13.86L14.27 3.73L4.14 7.96L7.57 9.29L8.39 9.61L8.71 10.44L10.03 13.86Z"
+                                                  fill="#F1530E"/>
+                                        </svg>
+                                    </div>
+                                    <span class="address">Москва, ул. Братиславская, 33</span>
+                                </div>
+                                <div class="box_info_item ">
+                                    <div class="img">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                  d="M19 22C20.1 22 21 21.1 21 20V6C21 4.9 20.1 4 19 4H18V2H16V4H8V2H6V4H5C3.89 4 3.01 4.9 3.01 6L3 20C3 21.1 3.89 22 5 22H19ZM9 13V11H7V13H9ZM5 8H19V6H5V8ZM19 10V20H5V10H19ZM17 13V11H15V13H17ZM13 13H11V11H13V13Z"
+                                                  fill="#23B388"/>
+                                        </svg>
+                                    </div>
+                                    <span class="schedule">Пн-Сб: 9:00 - 20:00, Вс: 10:00 - 19:00</span>
+                                </div>
+                            </div>
+                            <div class="box_img">
+                                <img src="assets/images/i_1%201.png" alt="">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="box_info">
+                                <div class="box_info_item ">
+                                    <div class="img">
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="15" cy="15" r="15" fill="#99CC00"/>
+                                            <path d="M18.3915 9.16221L18.2409 9.16196L15.04 15.4343L11.7239 9.1084L7.18367 20.5363H6.01032V21.4542H12.4383V20.5363H11.1629L12.4383 16.9647L15.04 21.4542L17.5398 16.9647L18.815 20.5363H17.5398V21.4542H23.9165V20.5363H22.8118L18.3915 9.16221Z"
+                                                  fill="white"/>
+                                        </svg>
+                                    </div>
+                                    <a class="branches" href="#">м. Братиславская</a>
+                                </div>
+                                <div class="box_info_item ">
+                                    <div class="img">
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                  d="M0 7.53L18 0L10.46 18H9.48L6.84 11.16L0 8.51V7.53ZM10.03 13.86L14.27 3.73L4.14 7.96L7.57 9.29L8.39 9.61L8.71 10.44L10.03 13.86Z"
+                                                  fill="#F1530E"/>
+                                        </svg>
+                                    </div>
+                                    <span class="address">Москва, ул. Братиславская, 33</span>
+                                </div>
+                                <div class="box_info_item ">
+                                    <div class="img">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                  d="M19 22C20.1 22 21 21.1 21 20V6C21 4.9 20.1 4 19 4H18V2H16V4H8V2H6V4H5C3.89 4 3.01 4.9 3.01 6L3 20C3 21.1 3.89 22 5 22H19ZM9 13V11H7V13H9ZM5 8H19V6H5V8ZM19 10V20H5V10H19ZM17 13V11H15V13H17ZM13 13H11V11H13V13Z"
+                                                  fill="#23B388"/>
+                                        </svg>
+                                    </div>
+                                    <span class="schedule">Пн-Сб: 9:00 - 20:00, Вс: 10:00 - 19:00</span>
+                                </div>
+                            </div>
+                            <div class="box_img">
+                                <img src="assets/images/i_1%201.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="our-branches-mobile">
+        <div class="container">
+            <h2 class="section-title">28 филиалов в Москве и МО</h2>
+            <div class="branches-mobile-slider owl-carousel owl-theme">
+                <div class="item">
+                    <img src="assets/images/i_1%201%20(1).png" alt="">
+                    <div class="info">
+                        <div class="info-item">
+                            <svg class="first" width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="15" cy="15" r="15" fill="#99CC00"/>
+                                <path d="M18.3915 9.16221L18.2409 9.16196L15.04 15.4343L11.7239 9.1084L7.18366 20.5363H6.01031V21.4542H12.4383V20.5363H11.1629L12.4383 16.9647L15.04 21.4542L17.5398 16.9647L18.815 20.5363H17.5398V21.4542H23.9165V20.5363H22.8118L18.3915 9.16221Z"
+                                      fill="white"/>
+                            </svg>
+                            <span class="branches">м. Братиславская</span>
+                        </div>
+                        <div class="info-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                      d="M3 10.53L21 3L13.46 21H12.48L9.84 14.16L3 11.51V10.53ZM13.03 16.86L17.27 6.73L7.14 10.96L10.57 12.29L11.39 12.61L11.71 13.44L13.03 16.86Z"
+                                      fill="#F1530E"/>
+                            </svg>
+                            <span class="address">Москва, ул. Братиславская, 33</span>
+                        </div>
+                        <div class="info-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                      d="M19 22C20.1 22 21 21.1 21 20V6C21 4.9 20.1 4 19 4H18V2H16V4H8V2H6V4H5C3.89 4 3.01 4.9 3.01 6L3 20C3 21.1 3.89 22 5 22H19ZM9 13V11H7V13H9ZM5 8H19V6H5V8ZM19 10V20H5V10H19ZM17 13V11H15V13H17ZM13 13H11V11H13V13Z"
+                                      fill="#23B388"/>
+                            </svg>
+                            <span class="schedule">Пн-Сб: 9:00 - 20:00, Вс: 10:00 - 19:00</span>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="assets/images/i_1%201%20(1).png" alt="">
+                    <div class="info">
+                        <div class="info-item">
+                            <svg class="first" width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="15" cy="15" r="15" fill="#99CC00"/>
+                                <path d="M18.3915 9.16221L18.2409 9.16196L15.04 15.4343L11.7239 9.1084L7.18366 20.5363H6.01031V21.4542H12.4383V20.5363H11.1629L12.4383 16.9647L15.04 21.4542L17.5398 16.9647L18.815 20.5363H17.5398V21.4542H23.9165V20.5363H22.8118L18.3915 9.16221Z"
+                                      fill="white"/>
+                            </svg>
+                            <span class="branches">Бульвар Рокоссовского</span>
+                        </div>
+                        <div class="info-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                      d="M3 10.53L21 3L13.46 21H12.48L9.84 14.16L3 11.51V10.53ZM13.03 16.86L17.27 6.73L7.14 10.96L10.57 12.29L11.39 12.61L11.71 13.44L13.03 16.86Z"
+                                      fill="#F1530E"/>
+                            </svg>
+                            <span class="address">Москва, ул. Ивантеевская, 21</span>
+                        </div>
+                        <div class="info-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                      d="M19 22C20.1 22 21 21.1 21 20V6C21 4.9 20.1 4 19 4H18V2H16V4H8V2H6V4H5C3.89 4 3.01 4.9 3.01 6L3 20C3 21.1 3.89 22 5 22H19ZM9 13V11H7V13H9ZM5 8H19V6H5V8ZM19 10V20H5V10H19ZM17 13V11H15V13H17ZM13 13H11V11H13V13Z"
+                                      fill="#23B388"/>
+                            </svg>
+                            <span class="schedule">Пн-Сб: 9:00 - 20:00, Вс: 10:00 - 19:00</span>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="assets/images/i_1%201%20(1).png" alt="">
+                    <div class="info">
+                        <div class="info-item">
+                            <svg class="first" width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="15" cy="15" r="15" fill="#99CC00"/>
+                                <path d="M18.3915 9.16221L18.2409 9.16196L15.04 15.4343L11.7239 9.1084L7.18366 20.5363H6.01031V21.4542H12.4383V20.5363H11.1629L12.4383 16.9647L15.04 21.4542L17.5398 16.9647L18.815 20.5363H17.5398V21.4542H23.9165V20.5363H22.8118L18.3915 9.16221Z"
+                                      fill="white"/>
+                            </svg>
+                            <span class="branches">Китай Город</span>
+                        </div>
+                        <div class="info-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                      d="M3 10.53L21 3L13.46 21H12.48L9.84 14.16L3 11.51V10.53ZM13.03 16.86L17.27 6.73L7.14 10.96L10.57 12.29L11.39 12.61L11.71 13.44L13.03 16.86Z"
+                                      fill="#F1530E"/>
+                            </svg>
+                            <span class="address">Москва, ул. Ивантеевская, 21</span>
+                        </div>
+                        <div class="info-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                      d="M19 22C20.1 22 21 21.1 21 20V6C21 4.9 20.1 4 19 4H18V2H16V4H8V2H6V4H5C3.89 4 3.01 4.9 3.01 6L3 20C3 21.1 3.89 22 5 22H19ZM9 13V11H7V13H9ZM5 8H19V6H5V8ZM19 10V20H5V10H19ZM17 13V11H15V13H17ZM13 13H11V11H13V13Z"
+                                      fill="#23B388"/>
+                            </svg>
+                            <span class="schedule">Пн-Сб: 9:00 - 20:00, Вс: 10:00 - 19:00</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="when-needed">
+        <div class="container">
+            <h2 class="section-title">
+                Когда необходима медсправка в ГАИ:
+            </h2>
+            <p class="section-subtitle">
+                Медицинская справка по форме 003-в/у требуется для оформления и замены водительских прав. В сети наших
+                медцентров в Москве и области можно получить медсправку для ГИБДД в день обращения. Медкомиссия займет
+                всего 20 минут. У нас нет очередей, приехать можно как с утра, так и вечером. Работаем без выходных.
+                Справки оформляем официально, по госстандартам.
+            </p>
+            <div class="row">
+                <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                    <ul>
+                        <li>при поступлении в автошколу;</li>
+                        <li>при получении, продлении или восстановлении водительского удостоверения;</li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                    <ul>
+                        <li>в случае замены прав при получении новой категории;</li>
+                        <li>при прохождении профосмотра для профессиональных <br> водителей;</li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 col-12 ">
+                    <ul class="third">
+                        <li>при поступлении в автошколу;</li>
+                        <li>при получении, продлении или восстановлении водительского удостоверения;</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer>
+    <div class="container">
+        <div class="footer-top">
+            <ul class="footer-links">
+                <li><a href="#">О компании</a></li>
+                <li><a href="#">Лицензии</a></li>
+                <li><a href="#">Услуги и цены</a></li>
+                <li><a href="#">Для организаций</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+            <ul class="footer-category first">
+                <li class="title">Водительская комиссия</li>
+                <li><a href="#">
+                    Справка для ГИБДД (форма 003-В/у) для категории А, В
+                </a></li>
+                <li><a href="#">
+                    Справка для ГИБДД (форма 003-В/у) для категории А, В + нарколог и психиатр
+                </a></li>
+                <li><a href="#">
+                    Справка для ГИБДД (форма 003-В/у) для категории С, D, E с ЭЭГ + нарколог и <br> психиатр
+                </a></li>
+            </ul>
+            <ul class="footer-category">
+                <li class="title">Справки на работу</li>
+                <li><a href="#">
+                    Справка для работы и учебы 086/У
+                </a></li>
+                <li><a href="#">
+                    Медицинская справка для работы с гостайной (форма 989н)
+                </a></li>
+                <li><a href="#">
+                    Справка для работы в следственных органах по форме 500
+                </a></li>
+            </ul>
+            <ul class="footer-category third">
+                <li class="title">Медицинские книжки</li>
+                <li><a href="#">
+                    Медкнижки для граждан РФ
+                </a></li>
+                <li><a href="#">
+                    Медкнижки для иностранных <br> граждан
+                </a></li>
+                <li><a href="#">
+                    Продление медицинской <br> книжки
+                </a></li>
+            </ul>
+            <div class="footer_info">
+                <svg class="logo" width="329" height="69" viewBox="0 0 329 69" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path d="M84.12 42.64C82.0133 45.2 79.1867 46.48 75.64 46.48C72.0933 46.48 69.2667 45.2 67.16 42.64C65.0533 40.08 64 36.76 64 32.68C64 28.6 65.0533 25.28 67.16 22.72C69.2667 20.16 72.0933 18.88 75.64 18.88C79.1867 18.88 82.0133 20.16 84.12 22.72C86.2267 25.28 87.28 28.6 87.28 32.68C87.28 36.76 86.2267 40.08 84.12 42.64ZM75.64 40.76C77.24 40.76 78.48 40.0133 79.36 38.52C80.2667 37 80.72 35.0533 80.72 32.68C80.72 30.28 80.2667 28.3333 79.36 26.84C78.48 25.3467 77.24 24.6 75.64 24.6C74.0667 24.6 72.8267 25.3467 71.92 26.84C71.04 28.3333 70.6 30.28 70.6 32.68C70.6 35.0533 71.04 37 71.92 38.52C72.8267 40.0133 74.0667 40.76 75.64 40.76ZM111.553 46H103.913L98.5925 36.24L96.9125 39.04V46H90.4325V19.32H96.9125V30.6L103.513 19.32H111.033L102.673 31.8L111.553 46Z"
+                          fill="#23B388"/>
+                    <path d="M139.64 46H133.2V30.16L127.8 46H125.28L119.92 30.16V46H113.44V19.32H122.04L126.56 32.64L131.12 19.32H139.64V46ZM159.95 46H143.87V19.32H159.95V24.96H150.35V29.64H159.67V35.28H150.35V40.36H159.95V46ZM172.878 46H163.518V19.32H172.878C176.612 19.32 179.545 20.5467 181.678 23C183.838 25.4267 184.918 28.6533 184.918 32.68C184.918 36.7067 183.852 39.9333 181.718 42.36C179.585 44.7867 176.638 46 172.878 46ZM172.878 40.36C174.585 40.36 175.918 39.6667 176.878 38.28C177.838 36.8933 178.318 35.0267 178.318 32.68C178.318 30.2 177.852 28.2933 176.918 26.96C175.985 25.6267 174.638 24.96 172.878 24.96H169.998V40.36H172.878Z"
+                          fill="#F1530E"/>
+                    <path d="M213 43H211.656L209.22 39.962L208.1 41.068V43H207.05V36.238H208.1V39.836L211.656 36.238H212.986L209.99 39.304L213 43ZM213.443 43.168V42.3C213.761 42.3 214.022 42.09 214.227 41.67C214.433 41.25 214.601 40.55 214.731 39.57L215.165 36.238H219.869V43H218.819V37.162H216.089L215.781 39.696C215.632 40.9373 215.371 41.8287 214.997 42.37C214.624 42.902 214.106 43.168 213.443 43.168ZM222.974 43H221.966V36.238H223.016V41.404L226.558 36.238H227.594V43H226.544V37.736L222.974 43ZM230.741 43H229.691V36.238H230.741V39.052H234.269V36.238H235.319V43H234.269V39.976H230.741V43ZM238.423 43H237.415V36.238H238.465V41.404L242.007 36.238H243.043V43H241.993V37.736L238.423 43ZM251.09 43H249.746L247.31 39.962L246.19 41.068V43H245.14V36.238H246.19V39.836L249.746 36.238H251.076L248.08 39.304L251.09 43ZM253.339 43H252.331V36.238H253.381V41.404L256.923 36.238H257.959V43H256.909V37.736L253.339 43Z"
+                          fill="#333333"/>
+                    <path d="M213.952 28H212.902V22.694L210.704 28H210.312L208.1 22.694V28H207.05V21.238H208.436L210.508 26.25L212.552 21.238H213.952V28ZM217.096 28H216.046V21.238H217.096V24.052H220.624V21.238H221.674V28H220.624V24.976H217.096V28ZM229.147 27.146C228.54 27.8273 227.733 28.168 226.725 28.168C225.717 28.168 224.905 27.8273 224.289 27.146C223.682 26.4647 223.379 25.62 223.379 24.612C223.379 23.604 223.682 22.764 224.289 22.092C224.905 21.4107 225.717 21.07 226.725 21.07C227.733 21.07 228.54 21.4107 229.147 22.092C229.763 22.764 230.071 23.604 230.071 24.612C230.071 25.62 229.763 26.4647 229.147 27.146ZM225.073 26.474C225.483 26.978 226.034 27.23 226.725 27.23C227.415 27.23 227.961 26.978 228.363 26.474C228.764 25.9607 228.965 25.34 228.965 24.612C228.965 23.884 228.764 23.268 228.363 22.764C227.961 22.26 227.415 22.008 226.725 22.008C226.034 22.008 225.483 22.2647 225.073 22.778C224.671 23.282 224.471 23.8933 224.471 24.612C224.471 25.34 224.671 25.9607 225.073 26.474ZM236.514 21.238V22.162H232.832V28H231.782V21.238H236.514ZM243.256 27.146C242.649 27.8273 241.842 28.168 240.834 28.168C239.826 28.168 239.014 27.8273 238.398 27.146C237.791 26.4647 237.488 25.62 237.488 24.612C237.488 23.604 237.791 22.764 238.398 22.092C239.014 21.4107 239.826 21.07 240.834 21.07C241.842 21.07 242.649 21.4107 243.256 22.092C243.872 22.764 244.18 23.604 244.18 24.612C244.18 25.62 243.872 26.4647 243.256 27.146ZM239.182 26.474C239.593 26.978 240.143 27.23 240.834 27.23C241.525 27.23 242.071 26.978 242.472 26.474C242.873 25.9607 243.074 25.34 243.074 24.612C243.074 23.884 242.873 23.268 242.472 22.764C242.071 22.26 241.525 22.008 240.834 22.008C240.143 22.008 239.593 22.2647 239.182 22.778C238.781 23.282 238.58 23.8933 238.58 24.612C238.58 25.34 238.781 25.9607 239.182 26.474ZM251.52 28H250.47V22.162H246.942V28H245.892V21.238H251.52V28ZM256.948 28.168C255.996 28.168 255.236 27.7713 254.666 26.978V30.576H253.616V21.238H254.666V22.246C254.918 21.8913 255.245 21.6067 255.646 21.392C256.048 21.1773 256.482 21.07 256.948 21.07C257.844 21.07 258.568 21.392 259.118 22.036C259.678 22.6707 259.958 23.5293 259.958 24.612C259.958 25.6947 259.678 26.558 259.118 27.202C258.568 27.846 257.844 28.168 256.948 28.168ZM256.682 27.23C257.345 27.23 257.872 26.9873 258.264 26.502C258.656 26.0073 258.852 25.3773 258.852 24.612C258.852 23.8467 258.656 23.2213 258.264 22.736C257.872 22.2507 257.345 22.008 256.682 22.008C256.281 22.008 255.889 22.1153 255.506 22.33C255.133 22.5353 254.853 22.7873 254.666 23.086V26.138C254.853 26.446 255.133 26.7073 255.506 26.922C255.889 27.1273 256.281 27.23 256.682 27.23ZM267.004 27.146C266.397 27.8273 265.59 28.168 264.582 28.168C263.574 28.168 262.762 27.8273 262.146 27.146C261.539 26.4647 261.236 25.62 261.236 24.612C261.236 23.604 261.539 22.764 262.146 22.092C262.762 21.4107 263.574 21.07 264.582 21.07C265.59 21.07 266.397 21.4107 267.004 22.092C267.62 22.764 267.928 23.604 267.928 24.612C267.928 25.62 267.62 26.4647 267.004 27.146ZM262.93 26.474C263.341 26.978 263.891 27.23 264.582 27.23C265.273 27.23 265.819 26.978 266.22 26.474C266.621 25.9607 266.822 25.34 266.822 24.612C266.822 23.884 266.621 23.268 266.22 22.764C265.819 22.26 265.273 22.008 264.582 22.008C263.891 22.008 263.341 22.2647 262.93 22.778C262.529 23.282 262.328 23.8933 262.328 24.612C262.328 25.34 262.529 25.9607 262.93 26.474ZM271.81 21.07C272.575 21.07 273.191 21.4667 273.658 22.26V18.662H274.708V22.246C274.913 21.8913 275.175 21.6067 275.492 21.392C275.819 21.1773 276.169 21.07 276.542 21.07C277.27 21.07 277.858 21.392 278.306 22.036C278.754 22.6707 278.978 23.5293 278.978 24.612C278.978 25.6947 278.749 26.558 278.292 27.202C277.844 27.846 277.261 28.168 276.542 28.168C275.777 28.168 275.165 27.7713 274.708 26.978V30.576H273.658V26.992C273.453 27.3467 273.187 27.6313 272.86 27.846C272.533 28.0607 272.183 28.168 271.81 28.168C271.082 28.168 270.494 27.8507 270.046 27.216C269.598 26.572 269.374 25.7087 269.374 24.626C269.374 23.5433 269.598 22.68 270.046 22.036C270.503 21.392 271.091 21.07 271.81 21.07ZM272.104 22.008C271.591 22.008 271.185 22.2553 270.886 22.75C270.587 23.2353 270.438 23.8607 270.438 24.626C270.438 25.3913 270.587 26.0167 270.886 26.502C271.185 26.9873 271.591 27.23 272.104 27.23C272.421 27.23 272.725 27.1273 273.014 26.922C273.303 26.7167 273.518 26.46 273.658 26.152V23.1C273.509 22.792 273.289 22.5353 273 22.33C272.711 22.1153 272.412 22.008 272.104 22.008ZM276.248 27.23C276.761 27.23 277.167 26.9873 277.466 26.502C277.765 26.0073 277.914 25.3773 277.914 24.612C277.914 23.8467 277.765 23.2213 277.466 22.736C277.167 22.2507 276.761 22.008 276.248 22.008C275.94 22.008 275.641 22.1153 275.352 22.33C275.063 22.5353 274.848 22.7873 274.708 23.086V26.138C274.857 26.446 275.072 26.7073 275.352 26.922C275.641 27.1273 275.94 27.23 276.248 27.23ZM281.818 28H280.81V21.238H281.86V26.404L285.402 21.238H286.438V28H285.388V22.736L281.818 28ZM287.736 28.168V27.3C288.054 27.3 288.315 27.09 288.52 26.67C288.726 26.25 288.894 25.55 289.024 24.57L289.458 21.238H294.162V28H293.112V22.162H290.382L290.074 24.696C289.925 25.9373 289.664 26.8287 289.29 27.37C288.917 27.902 288.399 28.168 287.736 28.168ZM296.259 21.238H297.309V23.856H299.843C300.515 23.856 301.038 24.0567 301.411 24.458C301.784 24.85 301.971 25.34 301.971 25.928C301.971 26.516 301.78 27.0107 301.397 27.412C301.024 27.804 300.506 28 299.843 28H296.259V21.238ZM299.731 24.78H297.309V27.076H299.731C300.104 27.076 300.389 26.9733 300.585 26.768C300.79 26.5533 300.893 26.2733 300.893 25.928C300.893 25.5827 300.79 25.3073 300.585 25.102C300.389 24.8873 300.104 24.78 299.731 24.78ZM304.623 28H303.573V21.238H304.623V24.052H308.151V21.238H309.201V28H308.151V24.976H304.623V28ZM311.298 21.238H312.348V23.856H314.882C315.554 23.856 316.077 24.0567 316.45 24.458C316.823 24.85 317.01 25.34 317.01 25.928C317.01 26.516 316.819 27.0107 316.436 27.412C316.063 27.804 315.545 28 314.882 28H311.298V21.238ZM314.77 24.78H312.348V27.076H314.77C315.143 27.076 315.428 26.9733 315.624 26.768C315.829 26.5533 315.932 26.2733 315.932 25.928C315.932 25.5827 315.829 25.3073 315.624 25.102C315.428 24.8873 315.143 24.78 314.77 24.78ZM319.166 28H318.116V21.238H319.166V28ZM324.317 28.168C323.309 28.168 322.483 27.8413 321.839 27.188C321.195 26.5253 320.873 25.6667 320.873 24.612C320.873 23.6227 321.19 22.7873 321.825 22.106C322.46 21.4153 323.253 21.07 324.205 21.07C325.204 21.07 325.992 21.4153 326.571 22.106C327.159 22.7873 327.453 23.6507 327.453 24.696V24.962H321.979C322.026 25.6247 322.268 26.18 322.707 26.628C323.146 27.076 323.715 27.3 324.415 27.3C325.255 27.3 325.95 27.0153 326.501 26.446L327.005 27.132C326.314 27.8227 325.418 28.168 324.317 28.168ZM326.417 24.192C326.408 23.6133 326.212 23.0953 325.829 22.638C325.446 22.1713 324.9 21.938 324.191 21.938C323.519 21.938 322.987 22.1667 322.595 22.624C322.212 23.0813 322.007 23.604 321.979 24.192H326.417Z"
+                          fill="#333333"/>
+                    <path d="M3.07031 28.2578C3.07031 46.3416 15.4922 47.4212 28.1901 64.6953C39.5078 49.0407 51.9297 46.3477 51.9297 40.6797"
+                          stroke="#F1530E" stroke-width="5"/>
+                    <path d="M54 35.4816H33.5711V45.6484H23.4265V35.4816H13.0078V28.2578" stroke="#23B388"
+                          stroke-width="5.5"/>
+                    <path d="M3.48438 21.6329C5.77936 12.5235 12.5733 3 28.7422 3C41.3309 3 51.9297 15.2888 51.9297 28.5782V34.0548"
+                          stroke="#23B388" stroke-width="5"/>
+                    <path d="M1 26.9817H22.9453V16.6641H33.1588V26.9817H43.6484V33.2266" stroke="#F1530E"
+                          stroke-width="5"/>
+                    <line x1="197" y1="20" x2="197" y2="45" stroke="#23B388" stroke-width="2"/>
+                </svg>
+                <div class="info">
+                    <div class="address">
+                        <svg width="20" height="28" viewBox="0 0 20 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M9.99996 0.666748C4.85329 0.666748 0.666626 4.85342 0.666626 10.0001C0.666626 17.0001 9.99996 27.3334 9.99996 27.3334C9.99996 27.3334 19.3333 17.0001 19.3333 10.0001C19.3333 4.85342 15.1466 0.666748 9.99996 0.666748ZM3.33329 10.0001C3.33329 6.32009 6.31996 3.33342 9.99996 3.33342C13.68 3.33342 16.6666 6.32009 16.6666 10.0001C16.6666 13.8401 12.8266 19.5868 9.99996 23.1734C7.22663 19.6134 3.33329 13.8001 3.33329 10.0001ZM8.66663 8.66674V6.00007H11.3333V8.66674H14V11.3334H11.3333V14.0001H8.66663V11.3334H5.99996V8.66674H8.66663Z"
+                                  fill="#F1530E"/>
+                        </svg>
+                        <p>Москва и МО</p>
+                    </div>
+                    <div class="schedule">
+                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M13.9866 0.666748C6.62663 0.666748 0.666626 6.64008 0.666626 14.0001C0.666626 21.3601 6.62663 27.3334 13.9866 27.3334C21.36 27.3334 27.3333 21.3601 27.3333 14.0001C27.3333 6.64008 21.36 0.666748 13.9866 0.666748ZM14 24.6667C8.10663 24.6667 3.33329 19.8934 3.33329 14.0001C3.33329 8.10675 8.10663 3.33341 14 3.33341C19.8933 3.33341 24.6666 8.10675 24.6666 14.0001C24.6666 19.8934 19.8933 24.6667 14 24.6667ZM12.6666 7.33341H14.6666V14.3334L20.6666 17.8934L19.6666 19.5334L12.6666 15.3334V7.33341Z"
+                                  fill="#F1530E"/>
+                        </svg>
+                        <div class="times">
+                            <p>ПН-ПТ: <span>09:00-20:00</span></p>
+                            <p>CБ: <span>10:00-19:00</span></p>
+                            <p>ВС: <span>10:30-18:00</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>2020 © OKMED</p>
+            <svg width="88" height="31" viewBox="0 0 88 31" fill="none" xmlns="http://www.w3.org/2000/svg"
+                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                <rect width="88" height="31" fill="url(#pattern0)"/>
+                <defs>
+                    <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                        <use xlink:href="#image0" transform="scale(0.0113636 0.0322581)"/>
+                    </pattern>
+                    <image id="image0" width="88" height="31"
+                           xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFgAAAAfCAYAAABjyArgAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4QUYDwIxJDW3AgAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAE/ElEQVRo3u1Z32/bVBg9jZMuSRs3qVhXpA62imlMCIYm0aG1ojSs6Y8JhMQDUtoSCfGExBsv/Ac8gsTLHqM0z/Cy/o46RmEbUDrWdmJjnVatdOrQqjhd3Mb3+l4eSlI7dho7FOSMHOmTP392ZPvk3OPv+tZ9fXGRowK0niLw+Blq2B9uShiOtZ209aOtbBrI5nCm62iNwX0wPz8PF1EoVMJthc8j4v5vj7GVztVY3Aecc7hz2wRkx/5Qb6hvxs25dZy7cMyRDycIQiFXVbVkTVvX1rSIx+OIx+OF/VgshlgsVvYeGGNwqZSCM247xIZmrCw+gpxRHEmwqqqF0BJYXBMEwVDTIhwOIx6PY3Z2Vkd4OBy2dB8uQimYym0HWB0avc24MbcGzrmjIz9cOecQBAGCIIBSCs45KKWGWj7C4TBSqRQAoKenR0dcKpVCOBwue20XJTlwxiqKUOAwln9aRW6bOvct7naD0r37o5SCUgq32607rq1pSdRuy9VNPZgSCq5W1KmhDi4EDh3GwpVVnI20O45cj8cDQkhBxWYEaLfFuRYzMzNlzzH1YEIUMJVVHKHGFvzy3V1QhTmO3Py2OM8TDwCEEEPtQLsIQhRLCm7v8KG9w7f7b361ufcgrnr4hRDmL6+go/cFxxCsKIrhYbU1rQrzdavKtEOwZQVrL1587BnxWVxL3QJjHDUYPFgBVy0Mbw15xed73X7UswAWvr2HM2+215jVeLBbITkwCwQXK7gYLU1tuDK28NQR3NvbW/LY9PS0FQWTkgo+0RXAia4AAOD3ua2SCgaAgDcIJnvw69w9vNJ53JFkeb1e7OzsmOYACvvFmJqaMtQikUhZz/7bg3NglJkG19qCJi91fmvweaS+uV5VCs0TXY7cRCKBSCRi34P3s4hS/WGp85sbjmBx5Soerm6i9bmQY188xXlewdvb27pz+/r6TJU7OTlpqetgjMFNqd4iXuwJ4mRPEABwezZt6SWXx5/SOhpD9ThyNHjgLc9BQJZl+Hw+A8GyLAMAfD5fIQeAiYmJQp5IJJBMJjExMWE6QSn1PcTQppVS7X5tWj7uri+i553XHG0JsizrSCyH/v5+AMDIyIiOcBttWg6cMlOvLZlTo4I3n2xghz9Gx/lTjlRvKQKy2Sz8fj8AIJvNGu6dc25qFVYUvDuTo0TnqVYINvPgO2s38NZ756rm5ZbNZk3zYthVrQnBChhV7RFM9R+mJXkTj+RVdL/7QdWo9z+baFCqn8ktXdrA0qUN3b5ZrsXtP+Zx/kIXBMH11JI1MDAAABgfH8fo6CiGh4ctejAlYLTyL2Gy8gSrm7fwWXT4f6Feqx3EnoJVYhjydrD84Dq6eztxyF/veHICgUAh39raMtS0dS0GBwd1+djYGJLJJIaGhspec1fBamUKpqqC5YfX8OlHX1SFejOZjI7sTCajq4miaOk5ipej9rUIVaXgFSr45tr3eKO7E4FQQ9UMcVEUDWT/m3bioiqpaCWDUoKfH1zG+x+/7fhFT21IkgRJkgpqzYcoipAkyfQ30WjUNC8XjDG4GKPgKrMdi2tX8XrHWbS0NVf9i6upqQmSJJU8Ho1GdblV/921CKba9mDOGX64P46Ln39ZVZ1DMBgs5Ol02tJi5z/pIgoE211VXtr4EadffhXHX2qrKqWm02lb9YPw4LrTrZ0VSfDDT4bR0h6sTdfK4C9Eev4WbCG7FQAAAABJRU5ErkJggg=="/>
+                </defs>
+            </svg>
+        </div>
+    </div>
+</footer>
+<script
+        src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous"></script>
+<script src="assets/js/script.js"></script>
+
+</body>
+</html>

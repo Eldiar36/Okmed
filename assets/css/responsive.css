@@ -1,0 +1,535 @@
+@media (max-width: 1900px) {
+    header .header-center .number a {
+        font-weight: bold;
+        font-size: 25px;
+    }
+    header .header-center .header-wrapper .status {
+        margin-right: 35px;
+    }
+    header .header-center .header-wrapper .address {
+        margin-left: 60px;
+        margin-right: 30px;
+    }
+    header .header-center .number {
+        margin-left: 25px;
+    }
+    header .header-center .header-wrapper .logo {
+        margin-right: 35px;
+    }
+}
+@media (max-width: 1700px) {
+    header .header-center .logo svg {
+        width: 230px;
+    }
+    header .header-center .header-wrapper .address {
+        margin-left: 0;
+        margin-right: 30px;
+    }
+    header .header-center .header-wrapper .status {
+        margin-right: 0px;
+    }
+    header .header-center .number a {
+        font-weight: bold;
+        font-size: 20px;
+    }
+    #advantages .advantages-slider .item {
+        margin: 0 40px;
+    }
+    #doctors-list .list_box {
+        padding-left: 30px;
+    }
+    #doctors-list .list_box .list_item:first-child {
+        margin-right: 50px;
+    }
+    #doctors-list .list-wrap ul:first-child {
+        margin-right: 40px;
+    }
+    #doctors-list .list_box .title {
+        font-size: 20px;
+        line-height: 23px;
+    }
+    footer .footer-top {
+        display: grid;
+        grid-template-columns: 1fr 1.4fr 1.2fr 1.2fr 1fr;
+        grid-gap: 40px;
+    }
+    #medical_certificate .box_info .select {
+        margin-right: 20px;
+    }
+    #medical_certificate .box_info form .item .checkbox-box {
+        margin-right: 20px;
+    }
+    #medical_certificate .box_info {
+        padding: 22px 20px 40px 20px;
+    }
+}
+@media (max-width: 1500px) {
+    #medical_certificate .medical_certificate_result .result_box .item p span {
+        font-size: 21px;
+    }
+    #medical_certificate .medical_certificate_result {
+        margin: 0 10%;
+    }
+    #medical_certificate .medical_certificate_result .result_box {
+        margin: 15px 0 20px 0;
+    }
+    #medical_certificate .img_box img {
+        height: 333px;
+    }
+    #medical_certificate .medical_certificate_result .result_box .item p {
+        font-size: 17px;
+    }
+    .container{
+        padding: 0 50px;
+    }
+    #advantages .advantages-slider .item {
+        margin: 0 10px;
+    }
+    #our-branches .slider-item {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-gap: 40px;
+    }
+    #our-branches .our-branches_slider .item .box_info {
+        padding: 20px 18px 25px 17px;
+    }
+    #certificate-cost table tr td, #certificate-cost table tr th {
+        text-align: center;
+        padding: 13px 0 14px 0;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+@media (max-width: 1400px) {
+    header .header-center .logo svg {
+        width: 200px;
+    }
+    header .header-center .header-wrapper .logo {
+        margin-right: 6px;
+    }
+    header .header-center .header-wrapper .status p, header .header-center .header-wrapper .license p, header .header-center .header-wrapper .address p {
+        font-weight: bold;
+        font-size: 15px;
+    }
+    header .header-center .number {
+        margin-left: 0;
+    }
+    header .header-center .number a{
+        font-size: 18px;
+    }
+    header .header-center .schedule .times p {
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+@media (max-width: 1200px) {
+    header .header_nav ul {
+        justify-content: space-between;
+    }
+    header .header_nav ul li {
+        margin-right: 15px;
+    }
+    header .header_nav ul li a {
+        font-size: 16px;
+    }
+    #medical_certificate .box_info .select.first {
+        width: 100%;
+    }
+    #medical_certificate .row {
+        justify-content: center;
+    }
+    #medical_certificate .img_box {
+        margin-top: 20px;
+    }
+    #medical_certificate .box_info {
+        padding: 20px 25px 30px 25px;
+    }
+    #medical_certificate .box_info .select {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    #medical_certificate .box_info .select .select__head {
+        width: 100%;
+        margin-right:0;
+    }
+    #medical_certificate .box_info form .item {
+        display: flex;
+        flex-direction: column;
+    }
+    #medical_certificate .box_info form .item .checkbox-box {
+        margin-right: 0;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #certificate-cost table tr .number {
+        font-size: 17px;
+        line-height: 18px;
+    }
+    #certificate-cost table tr td, #certificate-cost table tr th {
+        text-align: center;
+        padding: 13px 0 14px 0;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    #doctors-list .list_box .list_item:first-child {
+        margin-right: 30px;
+    }
+    #doctors-list .list_box .list_item ul li {
+        font-size: 15px;
+    }
+    #doctors-list .img_box {
+        margin-bottom: 30px;
+    }
+    #advantages .advantages-slider .item {
+        margin: 0 40px;
+    }
+
+    #our-branches .slider-item {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-gap: 20px;
+    }
+    #our-branches .our-branches_slider .item .box_info .box_info_item .branches {
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    #our-branches .our-branches_slider .item .box_info .box_info_item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+    #our-branches .our-branches_slider .item .box_img, #our-branches .our-branches_slider .item .box_img img {
+        height: 100%;
+        width: 100%;
+    }
+    footer .footer-top {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 40px;
+    }
+}
+@media (max-width: 991px) {
+    .container {
+        padding: 0 30px;
+    }
+    .burger-menu{
+        display: block;
+    }
+    .header_nav-mobile{
+        display: flex;
+    }
+    header .header-top {
+        display: none;
+    }
+    header .header-center .header-wrapper .logo{
+        display: none;
+    }
+
+    header .header-center .header-wrapper .status
+   {
+        display: none!important;
+    }
+    header .header-center .header-wrapper .license
+    {
+        display: none!important;
+    }
+    header .header-center .header-wrapper .address
+    {
+        display: none!important;
+    }
+    header .header-center .header-wrapper .schedule {
+        display: none!important;
+    }
+    header .header_nav {
+        display: none;
+    }
+    .page_navigation{
+        display: none;
+    }
+    #medical_certificate .select-row {
+        grid-template-columns: 1fr;
+    }
+    #medical_certificate .medical_certificate_result .result_box {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #doctors-list .list_box {
+        flex-direction: column;
+    }
+    #doctors-list .list_box .list_item:first-child {
+        margin-bottom: 30px;
+    }
+    #doctors-list .list-box_info:before {
+        display: none;
+    }
+    #certificate-cost-mobile {
+        display: block;
+    }
+    #certificate-cost {
+        display: none;
+    }
+    #our-branches {
+        display: none;
+    }
+    #our-branches-mobile {
+        display: block;
+    }
+
+    #when-needed ul li:last-child {
+        margin-bottom: 16px;
+    }
+    #when-needed ul li {
+        margin-bottom: 16px;
+    }
+    footer .footer-top {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 30px;
+    }
+    header .header-center .container {
+        padding: 0 16px;
+    }
+    header .header-center {
+        padding: 6px 0;
+    }
+
+    header .header-center .number a {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+
+}
+@media (max-width: 767px) {
+    #medical_certificate .medical_certificate_result {
+        margin: 0;
+    }
+    #medical_certificate .img_box img {
+        height: 344px;
+        width: 100%;
+    }
+    #certificate-cost {
+        display: none;
+    }
+    #certificate-cost-mobile {
+        display: block;
+    }
+    #advantages {
+        display: none;
+    }
+    #advantages-mobile {
+        display: block;
+    }
+    footer .footer-top {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 0;
+    }
+    footer .footer-top .footer_info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    footer .footer-links,
+    footer .footer-category {
+        display: none;
+    }
+    .section-subtitle {
+         font-size: 16px;
+     }
+    .section-title {
+        font-size: 20px;
+        line-height: 21px;
+    }
+    #our-branches-mobile .branches-mobile-slider {
+        width: 100%;
+    }
+    #doctors-list .list_box .list_item:first-child {
+        margin-right: 0;
+    }
+
+
+}
+@media (max-width: 480px) {
+    header .header-center .number a {
+        font-size: 24px;
+        line-height: 29px;
+    }
+    header .header-center {
+        padding: 6px 0;
+    }
+    .burger-menu-lines {
+        position: absolute;
+        width: 18px;
+        height: 1.5px;
+    }
+    .burger-menu-lines:nth-child(3) {
+        content: "";
+        top: -7px;
+    }
+    .burger-menu-lines:nth-child(2) {
+        content: "";
+        top: 7px
+    }
+    .container {
+        padding: 0 16px;
+    }
+    .section-subtitle {
+        font-size: 14px;
+    }
+    .section-title {
+        font-size: 18px;
+        line-height: 21px;
+
+    }
+    header .header-center .container {
+        padding: 0 16px;
+    }
+    #medical_certificate {
+        padding: 12px 0 16px 0;
+    }
+    #medical_certificate .section-title {
+        text-align: left;
+        padding-left: 16px;
+    }
+    #medical_certificate .container {
+        padding: 0;
+    }
+    #medical_certificate .status-mobile {
+        display: block;
+    }
+    #medical_certificate .section-subtitle {
+        display: none;
+    }
+    #medical_certificate .section-subtitle.mobile {
+        display: block;
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-top: 12px;
+        margin-bottom: 0;
+    }
+    #medical_certificate .box_info {
+        padding: 16px 16px 39px 16px;
+        border-radius: 30px;
+    }
+    #medical_certificate .box_info .box-title {
+        font-size: 18px;
+        line-height: 21px;
+        margin-bottom: 21px;
+    }
+    .checkbox-box {
+        height: auto;
+    }
+    .checkbox-wrap:first-child {
+        margin-bottom: 30px;
+    }
+    .checkbox-wrap p.pc {
+        display: none;
+    }
+    .checkbox-wrap p.mobile {
+        display: block;
+    }
+    .checkbox-wrap p {
+        margin-left: 10px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .select__head:after {
+       display: none;
+    }
+    .select__head {
+        padding: 0 0 0 26px;
+        font-size: 14px;
+    }
+    #medical_certificate .medical_certificate_result .result_box .item p span {
+        font-size: 17px;
+    }
+    #medical_certificate .medical_certificate_result .result_box .item p {
+        font-size: 15px;
+    }
+    #medical_certificate .medical_certificate_result .result_box {
+        padding: 18px 10px 19px 18px;
+
+    }
+    #medical_certificate .medical_certificate_result .result_box {
+        margin: 22px 0 25px 0;
+    }
+    #doctors-list {
+        padding-top: 12px;
+    }
+    #doctors-list .section-title {
+        margin-bottom: 19px;
+        text-align: left;
+    }
+    #doctors-list .list_box {
+        padding-left: 0;
+    }
+    #doctors-list .img_box {
+        margin-bottom: 20px;
+    }
+    #doctors-list .list_box .title {
+        font-size: 18px;
+        line-height: 23px;
+        margin-bottom: 20px;
+    }
+    #doctors-list .list_box .list_item ul li {
+        font-size: 14px;
+    }
+    #doctors-list .list_box .list_item .list-wrap {
+        flex-direction: column;
+    }
+    #doctors-list .list-box_info {
+        margin-top: 19px;
+    }
+    #doctors-list .list-box_info p {
+        padding-left: 0;
+        font-size: 14px;
+    }
+    #nav_mobile .owl-carousel .owl-nav button.owl-prev {
+        left: 20px;
+    }
+    #nav_mobile .owl-carousel .owl-nav button.owl-next {
+        right: 20px;
+    }
+    #when-needed {
+        padding: 24px 0 35px 0;
+    }
+    #when-needed .section-subtitle {
+        margin-bottom: 24px;
+    }
+    #when-needed ul.third{
+        display: none;
+    }
+    #when-needed ul li {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    footer .footer_info svg.logo {
+        margin-bottom: 30px;
+        width: 240px;
+    }
+    footer .footer-top .footer_info {
+        padding-left: 15px;
+        align-items: flex-start;
+    }
+    footer .footer-top .footer_info .info {
+        padding-left: 10px;
+    }
+    footer .footer-bottom {
+        margin-top: 77px;
+        justify-content: center;
+    }
+    footer .footer-bottom svg {
+        display: none;
+    }
+}
