@@ -1310,10 +1310,14 @@ body.burger-menu_active{
     line-height: 20px;
     color: #808080;
 }
-#our-branches .our-branches_slider .item .box_img,
-#our-branches .our-branches_slider .item .box_img img  {
+#our-branches .our-branches_slider .item .box_img
+ {
     height: 100%;
     width: 211px;
+}
+#our-branches .our-branches_slider .item .box_img img {
+    width: 100%;
+    height: 100%;
 }
 #our-branches .slider-item {
     display: grid;
