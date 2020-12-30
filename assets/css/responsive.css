@@ -23,7 +23,7 @@
     }
     header .header-center .header-wrapper .address {
         margin-left: 0;
-        margin-right: 30px;
+        margin-right: 0;
     }
     header .header-center .header-wrapper .status {
         margin-right: 0px;
@@ -61,6 +61,50 @@
     }
     #medical_certificate .box_info {
         padding: 22px 20px 40px 20px;
+    }
+    header .header-center .header-wrapper .status p, header .header-center .header-wrapper .license p, header .header-center .header-wrapper .address p {
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    header .header-center .header-wrapper .logo {
+        margin-right: 15px;
+    }
+    header .header-center .header-wrapper .status {
+        width: 12%;
+    }
+    header .header-center .logo .text {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    header .header-center .logo p:after {
+        display: none;
+    }
+    header .header-center .header-wrapper .logo img {
+        width: 45px;
+        height: 50px;
+    }
+    header .header-center .logo span.subtitle {
+        font-size: 14px;
+        line-height: 17px;
+        color: #333333;
+        margin-left: 16px;
+    }
+    header .header-center .logo p {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    header .header-center .header-wrapper .status img {
+        width: 50px;
+        height: 55px;
+    }
+    header .header-center .header-wrapper .license  img{
+        width: 55px;
+        height: 50px;
+    }
+    header .header-center .header-wrapper .status p ,
+    header .header-center .header-wrapper .license p     {
+        font-size: 13px;
     }
 }
 @media (max-width: 1500px) {
@@ -109,10 +153,6 @@
     header .header-center .header-wrapper .logo {
         margin-right: 6px;
     }
-    header .header-center .header-wrapper .status p, header .header-center .header-wrapper .license p, header .header-center .header-wrapper .address p {
-        font-weight: bold;
-        font-size: 15px;
-    }
     header .header-center .number {
         margin-left: 0;
     }
@@ -126,6 +166,39 @@
     }
 }
 @media (max-width: 1200px) {
+    header .header-center .logo p {
+        font-size: 26px;
+        line-height: 25px;
+    }
+    header .header-center .logo span.subtitle {
+        font-size: 13px;
+        line-height: 13px;
+        margin-top: 5px;
+    }
+    header .header-center .header-wrapper .logo img {
+        width: 30px;
+        height: 35px;
+    }
+    header .header-center .header-wrapper .status img {
+        width: 40px;
+        height: 40px;
+    }
+    header .header-center .header-wrapper .license img {
+        width: 40px;
+        height: 40px;
+    }
+    header .header-center .header-wrapper .status {
+        width: 16%;
+    }
+    header .header-center .schedule .times p {
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 16px;
+    }
+    header .header-center .number a {
+        font-size: 16px;
+        font-weight: 800;
+    }
     header .header_nav ul {
         justify-content: space-between;
     }
@@ -206,7 +279,10 @@
     }
     #our-branches .our-branches_slider .item .box_img, #our-branches .our-branches_slider .item .box_img img {
         height: 100%;
-        width: 100%;
+        width: 180px;
+    }
+    #our-branches .our-branches_slider .item .box_info {
+        padding: 20px 18px 0 17px;
     }
     footer .footer-top {
         display: grid;
@@ -282,7 +358,9 @@
     #our-branches-mobile {
         display: block;
     }
-
+    #our-branches-mobile .item img {
+        height: 100%;
+    }
     #when-needed ul li:last-child {
         margin-bottom: 16px;
     }
@@ -306,7 +384,10 @@
         font-size: 24px;
         line-height: 29px;
     }
-
+    header .header-center .number {
+        margin-left: auto;
+        margin-right: auto;
+    }
 
 }
 @media (max-width: 767px) {

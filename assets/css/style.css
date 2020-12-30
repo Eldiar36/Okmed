@@ -60,7 +60,6 @@ header .header-top {
     display: flex;
     justify-content: center;
     background: #29C797;
-
 }
 header .header-top ul {
     display: flex;
@@ -126,8 +125,8 @@ header .header-center .header-wrapper .address p{
     color: #333333;
 }
 header .header-center .header-wrapper .address {
-    margin-left: 88px;
-    margin-right: 44px;
+    margin-left: 80px;
+    margin-right: 40px;
 }
 header .header-center  .schedule img {
     margin-right: 10px;
@@ -155,9 +154,43 @@ header .header-center .number {
 }
 header .header-center .number a {
     font-weight: bold;
-    font-size: 30px;
+    font-size: 28px;
     line-height: 44px;
     color: #23B388
+}
+header .header-center .logo {
+    display: flex;
+    align-items: center;
+}
+header .header-center  .logo .text {
+    align-items: center;
+}
+header .header-center .logo p {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 37px;
+    line-height: 49px;
+    color: #23B388;
+    margin-left: 10px;
+    position: relative;
+}
+header .header-center .logo p:after {
+    content: "";
+    width: 2px;
+    height: 25px;
+    background: #23B388;
+    position: absolute;
+    top: 13px;
+    right: -10px;
+}
+header .header-center .logo span.subtitle {
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+    margin-left: 20px;
+}
+header .header-center .logo p span {
+    color: #F1530E;
 }
 header .header-center .number a span {
     color: #F1530E;
@@ -909,8 +942,17 @@ body.burger-menu_active{
     color: #616161;
     margin: 0 1px;
 }
-#certificate-cost table tr.second td {
-    background: #E9F8D8;
+#certificate-cost table tr td {
+    transition: .3s ease;
+}
+#certificate-cost table tr:hover td {
+    background: #E9F8D8;;
+}
+#certificate-cost table tr:hover td.number p {
+    opacity: 1;
+}
+#certificate-cost table tr:hover td.first {
+    color: #0054E5;
 }
 
 #certificate-cost table tr td,
@@ -930,7 +972,7 @@ body.burger-menu_active{
     text-decoration: underline;
 }
 #certificate-cost table  .first.link {
-    color: #0054E5;
+
 }
 #certificate-cost table tr .second,
 #certificate-cost table tr .four{
@@ -948,12 +990,14 @@ body.burger-menu_active{
     line-height: 19px;
     color: #23B388;
 }
-#certificate-cost table tr .number {
+#certificate-cost table tr .number p {
     font-weight: bold;
     font-size: 24px;
     line-height: 29px;
     color: #23B388;
     text-decoration: none;
+    opacity: 0;
+    transition: .4s ease;
 }
 #certificate-cost table tr .number span{
     color: #F1530E;
@@ -1227,10 +1271,10 @@ body.burger-menu_active{
      box-shadow: 0 4px 5px rgba(30, 44, 81, 0.1);
      border-radius: 10px;
      display: grid;
-     grid-template-columns: 1.5fr 1fr;
+     grid-template-columns: 1.8fr 1fr;
  }
 #our-branches .our-branches_slider  .item .box_info {
-    padding: 41px 18px 52px 17px;
+    padding: 41px 18px 32px 17px;
 }
 #our-branches .our-branches_slider  .item .box_info .box_info_item {
     display: flex;
@@ -1269,7 +1313,7 @@ body.burger-menu_active{
 #our-branches .our-branches_slider .item .box_img,
 #our-branches .our-branches_slider .item .box_img img  {
     height: 100%;
-    width: 100%;
+    width: 211px;
 }
 #our-branches .slider-item {
     display: grid;
